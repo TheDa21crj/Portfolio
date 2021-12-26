@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Oswald:wght@500&display=swap");
+.headmDiv {
+    background-image: url("../../img/xhero_img.jpg.pagespeed.ic.WrSXj_3UV4.webp");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    margin-top: -54px;
+    z-index: 0;
+}
+
+.headmDiv p {
+    margin: 0px;
+    filter: brightness(1);
+}
+
+@media only screen and (max-width: 740px) {
+    .headmDiv {
+        width: 740px;
+    }
+}

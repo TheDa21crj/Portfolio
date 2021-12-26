@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Oswald:wght@500&display=swap");
+.mDiv {
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-evenly;
+}
+
+.imgme {
+    height: 796.135px;
+}
+
+.mybioText {
+    width: 412px;
+    height: 796.135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mDiv h1 {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+
+.mDiv p {
+    text-align: justify;
+}
+
+.barDiv {
+    width: 100%;
+}
+
+.barDiv p {
+    font-family: "Nunito", sans-serif;
+}
+
+.fullL {
+    border-radius: 5px;
+    background-color: grey;
+    height: 4px;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.greenBar {
+    border-radius: 5px;
+    background-color: green;
+    height: 4px;
+}
+
+#gb1 {
+    width: 92%;
+}
+
+#gb2 {
+    width: 90%;
+}
+
+#gb3 {
+    width: 83%;
+}
+
+#gb4 {
+    width: 91%;
+}
+
+.gbDivV {
+    background-color: lightgreen;
+    float: right;
+    margin: 1% 5% 0px 0px;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    opacity: 0;
+}
+
+.fullL:hover>.gbDivV {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1100px) {
+    .mDiv {
+        flex-direction: column;
+    }
+    .ResimgDiv {
+        display: flex;
+        justify-content: center;
+    }
+    .mybioText {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin: 0px 20%;
+    }
+}
+
+.mBp {
+    margin: 40px 0px 50px 0px;
+}
+
+.CvLink {
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: rgb(0, 180, 0);
+    color: white;
+    border-radius: 5px;
+    padding: 2% 8%;
+    transition: all 0.3s;
+}
+
+.CvLink:hover {
+    color: black;
+    background-color: rgb(2, 161, 2);
+    box-shadow: 2px 2px 5px rgb(194, 194, 194);
+}

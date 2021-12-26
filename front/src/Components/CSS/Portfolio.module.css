@@ -1,0 +1,28 @@
+.mDiv {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mDiv h1 {
+    font-family: "Nunito", sans-serif;
+}
+
+.pDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .pDiv {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .mDiv {
+        width: 50%;
+    }
+}

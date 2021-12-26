@@ -1,0 +1,41 @@
+.mdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.mdiv:hover {
+    box-shadow: 20px -20px 0px lightgreen;
+}
+
+.imgPw {
+    max-width: 500px;
+}
+
+.mdiv p {
+    max-width: 380px;
+    margin-top: 10px;
+}
+
+.LinkP {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 1% 2%;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.LinkP:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 1050px) {
+    .mdiv {
+        margin-bottom: 30px;
+    }
+}
