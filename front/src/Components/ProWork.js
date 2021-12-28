@@ -8,7 +8,6 @@ export default function ProWork(props) {
       <img src={props.img} alt="" className={PwCss.imgPw} />
       <h3>{props.title}</h3>
       <p>{props.des}</p>
-      {/* <link rel="stylesheet" href="" className={PwCss.LinkP} /> */}
       <Link to={props.link} target="_blank" className={PwCss.LinkP}>
         Github
       </Link>

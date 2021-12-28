@@ -80,22 +80,6 @@
     opacity: 1;
 }
 
-@media only screen and (max-width: 1100px) {
-    .mDiv {
-        flex-direction: column;
-    }
-    .ResimgDiv {
-        display: flex;
-        justify-content: center;
-    }
-    .mybioText {
-        display: flex;
-        justify-content: center;
-        width: 60%;
-        margin: 0px 20%;
-    }
-}
-
 .mBp {
     margin: 40px 0px 50px 0px;
 }
@@ -114,4 +98,32 @@
     color: black;
     background-color: rgb(2, 161, 2);
     box-shadow: 2px 2px 5px rgb(194, 194, 194);
+}
+
+@media only screen and (max-width: 1100px) {
+    .mDiv {
+        flex-direction: column;
+    }
+    .ResimgDiv {
+        display: flex;
+        justify-content: center;
+    }
+    .mybioText {
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin: 0px 20%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .ResimgDiv {
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .mybioText {
+        width: 60%;
+        margin: 0px 20%;
+    }
 }

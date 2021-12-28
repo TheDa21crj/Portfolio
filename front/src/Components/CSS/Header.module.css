@@ -24,9 +24,3 @@
     margin: 0px;
     filter: brightness(1);
 }
-
-@media only screen and (max-width: 740px) {
-    .headmDiv {
-        width: 740px;
-    }
-}

@@ -23,6 +23,6 @@
 
 @media only screen and (max-width: 740px) {
     .mDiv {
-        width: 50%;
+        width: 100%;
     }
 }
