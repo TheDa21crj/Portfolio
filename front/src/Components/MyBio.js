@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import MybioCss from "./CSS/MyBio.module.css";
-import img0 from "./../img/myBio.webp";
+import img0 from "./../img/me.jpg";
 
 export default function MyBio() {
   return (
@@ -10,7 +10,7 @@ export default function MyBio() {
         <img src={img0} alt="" className={MybioCss.imgme} />
       </div>
       <div className={MybioCss.mybioText}>
-        <h1>My Bio</h1>
+        <h1 className={MybioCss.myBioH1}>My Bio</h1>
         <p className={MybioCss.mBp}>
           Hi, I'm <b>Rishav Raj Singh</b>, a student at{" "}
           <b>Kalinga Institute of Industrial Technology</b> Deemed to Be
@@ -39,7 +39,7 @@ export default function MyBio() {
           <p>React</p>
           <div className={MybioCss.fullL}>
             <div className={MybioCss.greenBar} id={MybioCss.gb3}></div>
-            <div className={MybioCss.gbDivV}>83%</div>
+            <div className={MybioCss.gbDivV}>90%</div>
           </div>
         </div>
         <div className={MybioCss.barDiv}>

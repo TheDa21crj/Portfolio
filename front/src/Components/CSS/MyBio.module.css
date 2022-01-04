@@ -2,7 +2,7 @@
 .mDiv {
     width: 100%;
     display: flex;
-    padding-top: 100px;
+    padding-top: 60px;
     justify-content: space-evenly;
 }
 
@@ -59,7 +59,7 @@
 }
 
 #gb3 {
-    width: 83%;
+    width: 90%;
 }
 
 #gb4 {
@@ -82,6 +82,10 @@
 
 .mBp {
     margin: 40px 0px 50px 0px;
+}
+
+.myBioH1:hover {
+    text-decoration: underline;
 }
 
 .CvLink {
