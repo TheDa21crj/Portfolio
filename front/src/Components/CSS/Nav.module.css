@@ -10,6 +10,7 @@
     z-index: 1;
     width: 100%;
     min-width: 100%;
+    transition: all 0.3s;
 }
 
 .ul {
