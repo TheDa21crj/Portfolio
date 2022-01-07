@@ -32,7 +32,7 @@ export default function Nav() {
 
   return (
     <div className={NavCss.mDiv} id={nav ? "active" : "hello"}>
-      <ul className={NavCss.ul} id="ulS">
+      <ul className={NavCss.ul}>
         <li className={NavCss.li}>
           <Link to="head" className={NavCss.linkNav} id="activeHome">
             Home
@@ -44,17 +44,17 @@ export default function Nav() {
           </Link>
         </li>
         <li className={NavCss.li}>
-          <Link to="portfolio" className={NavCss.linkNav}>
+          <Link to="portfolio" className={NavCss.linkNav} id="activePort">
             Protfolio
           </Link>
         </li>
         <li className={NavCss.li}>
-          <Link to="Services" className={NavCss.linkNav}>
+          <Link to="Services" className={NavCss.linkNav} id="activeService">
             Services
           </Link>
         </li>
         <li className={NavCss.li}>
-          <Link to="ContactUs" className={NavCss.linkNav}>
+          <Link to="ContactUs" className={NavCss.linkNav} id="activeConctact">
             Contact Us
           </Link>
         </li>
