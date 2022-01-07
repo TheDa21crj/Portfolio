@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 import NavRes from "./NavRes";
 import NavCss from "./CSS/Nav.module.css";
 import "./CSS/NavRes.css";
-import ScrollspyNav from "react-scrollspy-nav";
 
 export default function Nav() {
   const [show, setShow] = useState(true);
