@@ -16,18 +16,29 @@ export default function Nav() {
     }
   };
 
+  // const changeNav = () => {
+  //   if (
+  //     window.scrollY >= 598.6666870117188 &&
+  //     window.scrollY <= 2300.666748046875
+  //   ) {
+  //     // console.log(document.getElementById("ulS"));
+  //     // document.getElementById("ulS").forEach;
+  //   }
+  // };
+
   window.addEventListener("scroll", changeBg);
+  // window.addEventListener("scroll", changeNav);
 
   return (
     <div className={NavCss.mDiv} id={nav ? "active" : "hello"}>
-      <ul className={NavCss.ul}>
+      <ul className={NavCss.ul} id="ulS">
         <li className={NavCss.li}>
-          <Link to="head" className={NavCss.linkNav}>
+          <Link to="head" className={NavCss.linkNav} id="activeHome">
             Home
           </Link>
         </li>
         <li className={NavCss.li}>
-          <Link to="myBio" className={NavCss.linkNav}>
+          <Link to="myBio" className={NavCss.linkNav} id="activeAbout">
             About
           </Link>
         </li>
