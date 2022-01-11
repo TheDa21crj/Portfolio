@@ -8,21 +8,21 @@ export default function NavRes() {
     <div className={NavCss.NrmDiv} id="nav">
       <ul>
         <li>
-          <Link to="head"> Home </Link>{" "}
-        </li>{" "}
+          <Link to="head"> Home </Link>
+        </li>
         <li>
-          <Link to="myBio"> About </Link>{" "}
-        </li>{" "}
+          <Link to="myBio"> About </Link>
+        </li>
         <li>
-          <Link to="portfolio"> Portfolio </Link>{" "}
-        </li>{" "}
+          <Link to="portfolio"> Portfolio </Link>
+        </li>
         <li>
-          <Link to="Services"> Services </Link>{" "}
-        </li>{" "}
+          <Link to="Services"> Services </Link>
+        </li>
         <li>
-          <Link to="ContactUs"> Contact Us </Link>{" "}
-        </li>{" "}
-      </ul>{" "}
+          <Link to="ContactUs"> Contact Us </Link>
+        </li>
+      </ul>
     </div>
   );
 }

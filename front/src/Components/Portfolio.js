@@ -42,6 +42,24 @@ export default function Portfolio() {
           }}
         />
       </div>
+      <div className={PCss.pDiv}>
+        <ProWork
+          img={img2}
+          title="MERN Stack"
+          des="A website that consists of full functional Frontend and Backend with the use of jwt joken"
+          link={{
+            pathname: "https://github.com/TheDa21crj/MERN_Stack.Basic1.git",
+          }}
+        />
+        <ProWork
+          img={img3}
+          title="Avatar Identifier"
+          des="This a simple implementation of a third party API using Joeschmoe.io"
+          link={{
+            pathname: "https://github.com/TheDa21crj/Joeschmoe.io.git",
+          }}
+        />
+      </div>
     </div>
   );
 }

@@ -52,7 +52,7 @@ export default function MyBio() {
         <Link
           to={{
             pathname:
-              "https://drive.google.com/file/d/1WDYi6048p4qThwOTgOxWg29mB_UYXjxm/view?usp=sharing",
+              "https://drive.google.com/file/d/1tHslV-QE_twgVUHGq3SX9c6G5jZE1_1d/view",
           }}
           target="_blank"
           className={MybioCss.CvLink}
