@@ -5,6 +5,8 @@ import img0 from "../img/dance1.png";
 import img1 from "../img/ecc.png";
 import img2 from "../img/mern.png";
 import img3 from "../img/api.png";
+import img4 from "../img/CustomVid.png";
+import img5 from "../img/memorygame.png";
 
 export default function Portfolio() {
   return (
@@ -36,7 +38,7 @@ export default function Portfolio() {
         <ProWork
           img={img3}
           title="Avatar Identifier"
-          des="This a simple implementation of a third party API using Joeschmoe.io"
+          des="This a simple implementation of a third party API which is Joeschmoe.io"
           link={{
             pathname: "https://github.com/TheDa21crj/Joeschmoe.io.git",
           }}
@@ -44,17 +46,17 @@ export default function Portfolio() {
       </div>
       <div className={PCss.pDiv}>
         <ProWork
-          img={img2}
-          title="MERN Stack"
-          des="A website that consists of full functional Frontend and Backend with the use of jwt joken"
+          img={img4}
+          title="Custom Video Player"
+          des="This is a custom video player made from scratch using Reactjs, matrialUI - for the icons."
           link={{
             pathname: "https://github.com/TheDa21crj/MERN_Stack.Basic1.git",
           }}
         />
         <ProWork
-          img={img3}
-          title="Avatar Identifier"
-          des="This a simple implementation of a third party API using Joeschmoe.io"
+          img={img5}
+          title="Memory Game"
+          des="This is a simple memory game "
           link={{
             pathname: "https://github.com/TheDa21crj/Joeschmoe.io.git",
           }}
