@@ -50,15 +50,15 @@ export default function Portfolio() {
           title="Custom Video Player"
           des="This is a custom video player made from scratch using Reactjs, matrialUI - for the icons."
           link={{
-            pathname: "https://github.com/TheDa21crj/MERN_Stack.Basic1.git",
+            pathname: "https://github.com/TheDa21crj/CustomVideoPlayer",
           }}
         />
         <ProWork
           img={img5}
           title="Memory Game"
-          des="This is a simple memory game "
+          des="This is a simple memory game which includes some alert and also svg amination."
           link={{
-            pathname: "https://github.com/TheDa21crj/Joeschmoe.io.git",
+            pathname: "https://github.com/TheDa21crj/MemoryGame",
           }}
         />
       </div>
