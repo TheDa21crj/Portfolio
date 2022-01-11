@@ -38,6 +38,18 @@ export default function ContactUs() {
             >
               <GitHubIcon fontSize="large" className={CuCss.iconsDivI1} />
             </Link>
+            <Link
+              to={{
+                pathname: "https://www.hackerrank.com/rishavrajcrj",
+              }}
+              target="_blank"
+            >
+              <img
+                src="https://theme.zdassets.com/theme_assets/992614/b90a4eb6d3d6e876e77154967d8755ff9f33db0b.ico"
+                alt=""
+                className={CuCss.hackerrankIcon}
+              />
+            </Link>
           </div>
         </div>
       </div>
