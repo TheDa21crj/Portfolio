@@ -5,8 +5,10 @@ import ProWork from "./ProWork";
 import PCss from "./CSS/Portfolio.module.css";
 
 export default function Portfolio() {
+  const [search, setSearch] = useState();
+
   const filterData = async function (e) {
-    console.log(e.target.value);
+    setSearch(e.target.value);
   };
   return (
     <div className={PCss.mDiv} id="portfolio" data-aos="fade-up">
