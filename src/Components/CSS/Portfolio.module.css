@@ -39,7 +39,8 @@
 }
 
 #searchInp::placeholder {
-    color: rgb(0 180 0);
+    color: rgb(39, 253, 39);
+    font-weight: 500;
     text-transform: capitalize;
 }
 
