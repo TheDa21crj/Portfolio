@@ -39,7 +39,7 @@ export default function MyBio() {
           <p>React</p>
           <div className={MybioCss.fullL}>
             <div className={MybioCss.greenBar} id={MybioCss.gb3}></div>
-            <div className={MybioCss.gbDivV}>90%</div>
+            <div className={MybioCss.gbDivV}>93%</div>
           </div>
         </div>
         <div className={MybioCss.barDiv}>

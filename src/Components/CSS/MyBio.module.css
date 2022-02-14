@@ -59,7 +59,7 @@
 }
 
 #gb3 {
-    width: 90%;
+    width: 93%;
 }
 
 #gb4 {
@@ -70,7 +70,7 @@
     background-color: lightgreen;
     float: right;
     margin: 1% 5% 0px 0px;
-    padding: 1%;
+    padding: 1% 3%;
     border-radius: 10px;
     font-size: 0.8rem;
     opacity: 0;
@@ -78,6 +78,7 @@
 
 .fullL:hover>.gbDivV {
     opacity: 1;
+    transition: all 0.3s;
 }
 
 .mBp {
