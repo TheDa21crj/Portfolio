@@ -8,6 +8,9 @@ export default function Portfolio() {
   return (
     <div className={PCss.mDiv} id="portfolio" data-aos="fade-up">
       <h1>Portfolio</h1>
+      <div className={PCss.PinpDiv}>
+        <input type="text" name="" id="" />
+      </div>
       <div className={PCss.pDiv}>
         {JSONDATA.map((value, key) => {
           return (
