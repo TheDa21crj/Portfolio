@@ -23,7 +23,13 @@ export default function Portfolio() {
         />
       </div>
       <div className={PCss.pDiv}>
-        {JSONDATA.map((value, key) => {
+        {JSONDATA.filter((value) => {
+          if (search === "") {
+            return value;
+          } else if (value.name.includes(search)) {
+            return value;
+          }
+        }).map((value, key) => {
           return (
             <div key={key}>
               <ProWork
