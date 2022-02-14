@@ -1,4 +1,5 @@
 import React from "react";
+import JSONDATA from "./../Data/Portfolio.json";
 import ProWork from "./ProWork";
 import PCss from "./CSS/Portfolio.module.css";
 import img0 from "../img/dance1.png";
