@@ -14,16 +14,6 @@ export default function Portfolio() {
   return (
     <div className={PCss.mDiv} id="portfolio" data-aos="fade-up">
       <h1>Portfolio</h1>
-      {/* {JSONDATA.map((value, key) => {
-        return (
-          <div key={key}>
-            <img src={value.img} alt="" />
-            <h1>{value.name}</h1>
-            <p>{value.description}</p>
-            <a href={value.url}>{value.url}</a>
-          </div>
-        );
-      })} */}
       <div className={PCss.pDiv}>
         {JSONDATA.map((value, key) => {
           return (
@@ -39,55 +29,7 @@ export default function Portfolio() {
             </div>
           );
         })}
-        {/* <ProWork
-          img={img0}
-          title="Dance Website"
-          des="This a dance website with Amination on Scroll (AOS) effect as well as fully functional Backend"
-          link={{ pathname: "https://github.com/TheDa21crj/Dance-site.git" }}
-        />
-        <ProWork
-          img={img1}
-          title="E-Commerce"
-          des="It's a e-commerce responsive website with auto scroll and Amination on Scroll effect (AOS)"
-          link={{ pathname: "https://github.com/TheDa21crj/-E-Commerce.git" }}
-        /> */}
       </div>
-      {/* <div className={PCss.pDiv}>
-        <ProWork
-          img={img2}
-          title="MERN Stack"
-          des="A website that consists of full functional Frontend and Backend with the use of jwt joken"
-          link={{
-            pathname: "https://github.com/TheDa21crj/MERN_Stack.Basic1.git",
-          }}
-        />
-        <ProWork
-          img={img3}
-          title="Avatar Identifier"
-          des="This a simple implementation of a third party API which is Joeschmoe.io"
-          link={{
-            pathname: "https://github.com/TheDa21crj/Joeschmoe.io.git",
-          }}
-        />
-      </div>
-      <div className={PCss.pDiv}>
-        <ProWork
-          img={img4}
-          title="Custom Video Player"
-          des="This is a custom video player made from scratch using Reactjs, matrialUI - for the icons."
-          link={{
-            pathname: "https://github.com/TheDa21crj/CustomVideoPlayer",
-          }}
-        />
-        <ProWork
-          img={img5}
-          title="Memory Game"
-          des="This is a simple memory game which includes some alert and also svg amination."
-          link={{
-            pathname: "https://github.com/TheDa21crj/MemoryGame",
-          }}
-        />
-      </div> */}
     </div>
   );
 }
