@@ -6,6 +6,10 @@
     transition: all 0.3s;
 }
 
+.pwH3 {
+    margin-top: 10px;
+}
+
 .imgPw {
     max-width: 500px;
     transition: all 0.3s;
