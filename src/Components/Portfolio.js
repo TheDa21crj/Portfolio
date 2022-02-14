@@ -14,7 +14,7 @@ export default function Portfolio() {
   return (
     <div className={PCss.mDiv} id="portfolio" data-aos="fade-up">
       <h1>Portfolio</h1>
-      {JSONDATA.map((value, key) => {
+      {/* {JSONDATA.map((value, key) => {
         return (
           <div key={key}>
             <img src={value.img} alt="" />
@@ -23,7 +23,7 @@ export default function Portfolio() {
             <a href={value.url}>{value.url}</a>
           </div>
         );
-      })}
+      })} */}
       <div className={PCss.pDiv}>
         <ProWork
           img={img0}
