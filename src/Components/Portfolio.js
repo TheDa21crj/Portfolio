@@ -25,7 +25,21 @@ export default function Portfolio() {
         );
       })} */}
       <div className={PCss.pDiv}>
-        <ProWork
+        {JSONDATA.map((value, key) => {
+          return (
+            <div key={key}>
+              <ProWork
+                img={value.img}
+                title={value.name}
+                des={value.description}
+                link={{
+                  pathname: `${value.url}`,
+                }}
+              />
+            </div>
+          );
+        })}
+        {/* <ProWork
           img={img0}
           title="Dance Website"
           des="This a dance website with Amination on Scroll (AOS) effect as well as fully functional Backend"
@@ -36,9 +50,9 @@ export default function Portfolio() {
           title="E-Commerce"
           des="It's a e-commerce responsive website with auto scroll and Amination on Scroll effect (AOS)"
           link={{ pathname: "https://github.com/TheDa21crj/-E-Commerce.git" }}
-        />
+        /> */}
       </div>
-      <div className={PCss.pDiv}>
+      {/* <div className={PCss.pDiv}>
         <ProWork
           img={img2}
           title="MERN Stack"
@@ -73,7 +87,7 @@ export default function Portfolio() {
             pathname: "https://github.com/TheDa21crj/MemoryGame",
           }}
         />
-      </div>
+      </div> */}
     </div>
   );
 }
