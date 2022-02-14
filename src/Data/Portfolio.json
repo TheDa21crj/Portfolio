@@ -2,7 +2,7 @@
         "id": "1",
         "name": "Dance Website",
         "description": "This a dance website with Amination on Scroll (AOS) effect as well as fully functional Backend",
-        "img": "../img/dance1.png",
+        "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6209edcf5d44938fa2d914ec_dance1.png",
         "url": "https://github.com/TheDa21crj/Dance-site.git"
     },
     {
