@@ -5,7 +5,7 @@ import ProWork from "./ProWork";
 import PCss from "./CSS/Portfolio.module.css";
 
 export default function Portfolio() {
-  const [search, setSearch] = useState();
+  const [search, setSearch] = useState("");
 
   const filterData = async function (e) {
     setSearch(e.target.value);
@@ -26,7 +26,7 @@ export default function Portfolio() {
         {JSONDATA.filter((value) => {
           if (search === "") {
             return value;
-          } else if (value.name.includes(search)) {
+          } else if (value.name.toLowerCase().includes(search.toLowerCase())) {
             return value;
           }
         }).map((value, key) => {
