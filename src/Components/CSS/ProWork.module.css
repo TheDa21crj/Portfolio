@@ -3,16 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
     transition: all 0.3s;
-}
-
-.mdiv:hover {
-    box-shadow: 20px -20px 0px lightgreen;
 }
 
 .imgPw {
     max-width: 500px;
+    transition: all 0.3s;
+}
+
+.imgPw:hover {
+    box-shadow: 20px -20px 0px lightgreen;
 }
 
 .mdiv p {
