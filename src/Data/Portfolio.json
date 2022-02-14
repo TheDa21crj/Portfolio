@@ -9,7 +9,35 @@
         "id": "2",
         "name": "E-Commerce",
         "description": "It's a e-commerce responsive website with auto scroll and Amination on Scroll effect (AOS)",
-        "img": "../img/ecc.png",
-        "url": "https://github.com/TheDa21crj/Dance-site.git"
+        "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6209edd008727968f8ae1cec_ecc.png",
+        "url": "https://github.com/TheDa21crj/-E-Commerce.git"
+    },
+    {
+        "id": "3",
+        "name": "MERN Stack",
+        "description": "A website that consists of full functional Frontend and Backend with the use of jwt joken",
+        "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6209ede6804e1a0c71460f91_mern.png",
+        "url": "https://github.com/TheDa21crj/MERN_Stack.Basic1.git"
+    },
+    {
+        "id": "4",
+        "name": "Avatar Identifier",
+        "description": "This a simple implementation of a third party API which is Joeschmoe.io",
+        "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6209edcfbb0f987336c4b06e_api.png",
+        "url": "https://github.com/TheDa21crj/Joeschmoe.io.git"
+    },
+    {
+        "id": "5",
+        "name": "Custom Video Player",
+        "description": "This is a custom video player made from scratch using Reactjs, matrialUI - for the icons.",
+        "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6209edcf4ae14d2ff6731b8b_CustomVid.png",
+        "url": "https://github.com/TheDa21crj/CustomVideoPlayer.git"
+    },
+    {
+        "id": "6",
+        "name": "Memory Game",
+        "description": "This is a simple memory game which includes some alert and also svg amination.",
+        "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6209edcf4ae14d2ff6731b8b_CustomVid.png",
+        "url": "https://github.com/TheDa21crj/MemoryGame.git"
     }
 ]
