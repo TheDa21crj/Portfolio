@@ -54,7 +54,7 @@ export default function Nav() {
         </li>
         <li className={NavCss.li}>
           <Link to="ContactUs" className={NavCss.linkNav} id="activeConctact">
-            Contact Us
+            Contact
           </Link>
         </li>
       </ul>
