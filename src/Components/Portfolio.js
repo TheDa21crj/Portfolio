@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import JSONDATA from "./../Data/Portfolio.json";
 import ProWork from "./ProWork";
 import PCss from "./CSS/Portfolio.module.css";
 
 export default function Portfolio() {
+  const filterData = async function (e) {
+    console.log(e.target.value);
+  };
   return (
     <div className={PCss.mDiv} id="portfolio" data-aos="fade-up">
       <h1>Portfolio</h1>
@@ -14,6 +17,7 @@ export default function Portfolio() {
           name=""
           id={PCss.searchInp}
           placeholder="find a project"
+          onChange={filterData}
         />
       </div>
       <div className={PCss.pDiv}>
