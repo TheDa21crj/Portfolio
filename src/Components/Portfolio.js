@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import JSONDATA from "./../Data/Portfolio.json";
 import ProWork from "./ProWork";
 import PCss from "./CSS/Portfolio.module.css";
@@ -13,6 +14,16 @@ export default function Portfolio() {
   return (
     <div className={PCss.mDiv} id="portfolio" data-aos="fade-up">
       <h1>Portfolio</h1>
+      {JSONDATA.map((value, key) => {
+        return (
+          <div key={key}>
+            <img src={value.img} alt="" />
+            <h1>{value.name}</h1>
+            <p>{value.description}</p>
+            <a href={value.url}>{value.url}</a>
+          </div>
+        );
+      })}
       <div className={PCss.pDiv}>
         <ProWork
           img={img0}

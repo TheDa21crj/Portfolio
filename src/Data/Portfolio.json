@@ -2,34 +2,14 @@
         "id": "1",
         "name": "Dance Website",
         "description": "This a dance website with Amination on Scroll (AOS) effect as well as fully functional Backend",
-        "img": "./../img/dance1.png",
+        "img": "../img/dance1.png",
         "url": "https://github.com/TheDa21crj/Dance-site.git"
     },
     {
-        "id": "1",
+        "id": "2",
         "name": "E-Commerce",
         "description": "It's a e-commerce responsive website with auto scroll and Amination on Scroll effect (AOS)",
-        "img": "./../img/ecc.png",
+        "img": "../img/ecc.png",
         "url": "https://github.com/TheDa21crj/Dance-site.git"
-    },
-    {
-        "id": "3",
-        "name": "gmail drive"
-    },
-    {
-        "id": "4",
-        "name": "gmail blog"
-    },
-    {
-        "id": "5",
-        "name": "gmail contact"
-    },
-    {
-        "id": "6",
-        "name": "gmail map"
-    },
-    {
-        "id": "7",
-        "name": "gmail files"
     }
 ]
