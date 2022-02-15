@@ -14,7 +14,7 @@ export default function ContactUs() {
         <div className={CuCss.infoDiv}>
           <div className={CuCss.iconsDiv}>
             <CallIcon />
-            <p> +91 9939197376 </p>
+            <p> +234 902 371 8739 </p>
           </div>
           <div className={CuCss.iconsDiv}>
             <MailIcon />
