@@ -21,20 +21,23 @@ class Cv extends Component {
 
     return (
       <div>
-        <nav>
-          <button onClick={this.goToPrevPage}>Prev</button>
-          <button onClick={this.goToNextPage}>Next</button>
-        </nav>
+        <Nav />
+        <div>
+          <nav>
+            <button onClick={this.goToPrevPage}>Prev</button>
+            <button onClick={this.goToNextPage}>Next</button>
+          </nav>
 
-        <div style={{ width: 600 }}>
-          <Document file={CvPdf} onLoadSuccess={this.onDocumentLoadSuccess}>
-            <Page pageNumber={pageNumber} width={600} />
-          </Document>
+          <div style={{ width: 600 }}>
+            <Document file={CvPdf} onLoadSuccess={this.onDocumentLoadSuccess}>
+              <Page pageNumber={pageNumber} width={600} />
+            </Document>
+          </div>
+
+          <p>
+            Page {pageNumber} of {numPages}
+          </p>
         </div>
-
-        <p>
-          Page {pageNumber} of {numPages}
-        </p>
       </div>
     );
   }
