@@ -11,12 +11,15 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <Home />
-          </Route>{" "}
+          </Route>
+          <Route path="/cv" exact>
+            <Cv />
+          </Route>
           <Route path="*">
             <Error />
-          </Route>{" "}
-        </Switch>{" "}
-      </Layout>{" "}
+          </Route>
+        </Switch>
+      </Layout>
     </div>
   );
 }
