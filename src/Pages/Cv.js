@@ -1,5 +1,4 @@
 import React, { Component, useState } from "react";
-import { Link } from "react-router-dom";
 import Nav from "./../Components/Error/Nav";
 import CvCss from "./CSS/Cv.module.css";
 import { Document, Page, pdfjs } from "react-pdf";
