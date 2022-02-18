@@ -49,7 +49,10 @@ export default function MyBio() {
             <div className={MybioCss.gbDivV}>91%</div>
           </div>
         </div>
-        <a to="/cv" className={MybioCss.CvLink}>
+        <a
+          href="https://drive.google.com/file/d/1Thms9xiChIHvwO2qIDlVYkGU1rQz2__6/view?usp=sharinghttps://drive.google.com/file/d/1Thms9xiChIHvwO2qIDlVYkGU1rQz2__6/view?usp=sharing"
+          className={MybioCss.CvLink}
+        >
           CV
         </a>
       </div>
