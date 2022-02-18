@@ -26,6 +26,9 @@ class Cv extends Component {
         <div className={CvCss.CvmDiv}>
           <div className={CvCss.CvBtnDiv}>
             <div className={CvCss.CvBtnDivLeft}>
+              <p>Cv.pdf</p>
+            </div>
+            <div className={CvCss.CvBtnDivMiddle}>
               <button onClick={this.goToPrevPage} className={CvCss.prev}>
                 Prev
               </button>

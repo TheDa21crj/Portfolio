@@ -41,18 +41,9 @@
     color: black;
 }
 
-.CvBtnDivLeft {
+.CvBtnDivMiddle {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100%;
-}
-
-
-/* .CvBtnDivLeft, */
-
-.CvBtnDivRight {
-    position: absolute;
-    top: 65px;
-    right: 30px;
+    width: 60%;
 }
