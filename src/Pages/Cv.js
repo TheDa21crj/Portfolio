@@ -14,10 +14,6 @@ export default function Cv() {
           <div className={CvCss.CvBtnDivLeft}>
             <p>Cv.pdf</p>
           </div>
-          <div className={CvCss.CvBtnDivMiddle}>
-            <button className={CvCss.prev}>Prev</button>
-            <button className={CvCss.next}>Next</button>
-          </div>
           <div className={CvCss.CvBtnDivRight}>
             <a href={CvPdf} download>
               <GetAppIcon fontSize="large" className={CvCss.downloadIcon} />
@@ -38,10 +34,7 @@ export default function Cv() {
           </div>
         </div>
         <div>
-          <embed src={CvPdf} type="application/pdf" />
-        </div>
-        <div className={CvCss.pageDiv}>
-          <p>Page 1 of 1</p>
+          <embed src={CvPdf} width="800px" height="500px" />
         </div>
       </div>
     </div>

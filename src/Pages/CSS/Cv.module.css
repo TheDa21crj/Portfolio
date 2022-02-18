@@ -5,8 +5,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    overflow: hidden;
-    max-height: 300vh;
 }
 
 .CvBtnDiv {
@@ -53,7 +51,7 @@
 }
 
 .pageDiv {
-    margin-top: -230px;
+    /* margin-top: -230px; */
 }
 
 .alert {
@@ -92,4 +90,8 @@
 #icon:hover>.pTag {
     opacity: 1;
     visibility: visible;
+}
+
+.embedPdf {
+    width: 100%;
 }
