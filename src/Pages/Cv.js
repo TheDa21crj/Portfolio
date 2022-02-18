@@ -25,15 +25,19 @@ class Cv extends Component {
         <Nav />
         <div className={CvCss.CvmDiv}>
           <div className={CvCss.CvBtnDiv}>
-            <button onClick={this.goToPrevPage} className={CvCss.prev}>
-              Prev
-            </button>
-            <button onClick={this.goToNextPage} className={CvCss.next}>
-              Next
-            </button>
-            <a href={CvPdf} download>
-              <GetAppIcon fontSize="large" className={CvCss.downloadIcon} />
-            </a>
+            <div className={CvCss.CvBtnDivLeft}>
+              <button onClick={this.goToPrevPage} className={CvCss.prev}>
+                Prev
+              </button>
+              <button onClick={this.goToNextPage} className={CvCss.next}>
+                Next
+              </button>
+            </div>
+            <div className={CvCss.CvBtnDivRight}>
+              <a href={CvPdf} download>
+                <GetAppIcon fontSize="large" className={CvCss.downloadIcon} />
+              </a>
+            </div>
           </div>
           <div>
             <Document file={CvPdf} onLoadSuccess={this.onDocumentLoadSuccess}>

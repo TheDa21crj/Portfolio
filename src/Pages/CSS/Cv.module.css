@@ -41,3 +41,21 @@
 .downloadIcon:hover {
     color: black;
 }
+
+.CvBtnDivLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    width: 80%;
+}
+
+
+/* .CvBtnDivLeft, */
+
+.CvBtnDivRight {
+    position: absolute;
+    top: 65px;
+    right: 30px;
+    /* background-color: lightgreen; */
+}
