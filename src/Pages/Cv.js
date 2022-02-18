@@ -21,7 +21,7 @@ class Cv extends Component {
     const { pageNumber, numPages } = this.state;
 
     return (
-      <div>
+      <div className={CvCss.CvCmDiv}>
         <Nav />
         <div className={CvCss.CvmDiv}>
           <div className={CvCss.CvBtnDiv}>
@@ -47,7 +47,7 @@ class Cv extends Component {
               <Page pageNumber={pageNumber} width={800} />
             </Document>
           </div>
-          <div>
+          <div className={CvCss.pageDiv}>
             <p>
               Page {pageNumber} of {numPages}
             </p>
