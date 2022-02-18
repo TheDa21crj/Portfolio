@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 import Nav from "./../Components/Error/Nav";
 import CvCss from "./CSS/Cv.module.css";
 import { Document, Page, pdfjs } from "react-pdf";
+import GetAppIcon from "@material-ui/icons/GetApp";
 import CvPdf from "./../pdf/Cv.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -31,7 +32,7 @@ class Cv extends Component {
               Next
             </button>
             <a href={CvPdf} download>
-              Click to download
+              <GetAppIcon fontSize="large" />
             </a>
           </div>
           <div>
