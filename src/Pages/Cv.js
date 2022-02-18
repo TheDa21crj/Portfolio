@@ -24,10 +24,14 @@ class Cv extends Component {
       <div className={CvCss.CvCdiv}>
         <Nav />
         <div>
-          <nav>
-            <button onClick={this.goToPrevPage}>Prev</button>
-            <button onClick={this.goToNextPage}>Next</button>
-          </nav>
+          <div className={CvCss.prevNextDiv}>
+            <button onClick={this.goToPrevPage} className={CvCss.prev}>
+              Prev
+            </button>
+            <button onClick={this.goToNextPage} className={CvCss.next}>
+              Next
+            </button>
+          </div>
 
           <div className={CvCss.CvmDiv}>
             <div>
