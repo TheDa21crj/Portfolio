@@ -13,10 +13,10 @@ class Cv extends Component {
     this.setState({ numPages });
   };
 
-  goToPrevPage = () =>
-    this.setState((state) => ({ pageNumber: state.pageNumber - 1 }));
-  goToNextPage = () =>
-    this.setState((state) => ({ pageNumber: state.pageNumber + 1 }));
+  //   goToPrevPage = () =>
+  //     this.setState((state) => ({ pageNumber: state.pageNumber - 1 }));
+  //   goToNextPage = () =>
+  //     this.setState((state) => ({ pageNumber: state.pageNumber + 1 }));
   render() {
     const { pageNumber, numPages } = this.state;
 
@@ -29,10 +29,16 @@ class Cv extends Component {
               <p>Cv.pdf</p>
             </div>
             <div className={CvCss.CvBtnDivMiddle}>
-              <button onClick={this.goToPrevPage} className={CvCss.prev}>
+              <button
+                //   onClick={this.goToPrevPage}
+                className={CvCss.prev}
+              >
                 Prev
               </button>
-              <button onClick={this.goToNextPage} className={CvCss.next}>
+              <button
+                //   onClick={this.goToNextPage}
+                className={CvCss.next}
+              >
                 Next
               </button>
             </div>

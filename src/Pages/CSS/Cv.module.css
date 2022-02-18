@@ -19,12 +19,13 @@
 
 .prev,
 .next {
+    position: relative;
     padding: 0.5% 2%;
     border-radius: 5px;
     border-style: solid;
     border-color: grey;
     border-width: 1px;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
 .prev {
@@ -52,4 +53,22 @@
 
 .pageDiv {
     margin-top: -230px;
+}
+
+.alert {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.alertShow {
+    opacity: 1;
+    visibility: visible;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+}
+
+.ShowonHover {
+    position: absolute;
+    top: 50px;
 }
