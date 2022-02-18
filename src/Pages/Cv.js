@@ -1,5 +1,6 @@
 import React, { Component, useState } from "react";
 import Nav from "./../Components/Error/Nav";
+import CvCss from "./CSS/Cv.module.css";
 import { Document, Page, pdfjs } from "react-pdf";
 import CvPdf from "./../pdf/Cv.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -20,7 +21,7 @@ class Cv extends Component {
     const { pageNumber, numPages } = this.state;
 
     return (
-      <div>
+      <div className={CvCss.CvCdiv}>
         <Nav />
         <div>
           <nav>
@@ -28,10 +29,12 @@ class Cv extends Component {
             <button onClick={this.goToNextPage}>Next</button>
           </nav>
 
-          <div style={{ width: 600 }}>
-            <Document file={CvPdf} onLoadSuccess={this.onDocumentLoadSuccess}>
-              <Page pageNumber={pageNumber} width={600} />
-            </Document>
+          <div className={CvCss.CvmDiv}>
+            <div>
+              <Document file={CvPdf} onLoadSuccess={this.onDocumentLoadSuccess}>
+                <Page pageNumber={pageNumber} width={600} />
+              </Document>
+            </div>
           </div>
 
           <p>
