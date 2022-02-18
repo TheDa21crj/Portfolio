@@ -1,4 +1,5 @@
 import React, { Component, useState } from "react";
+import { Link } from "react-router-dom";
 import Nav from "./../Components/Error/Nav";
 import CvCss from "./CSS/Cv.module.css";
 import { Document, Page, pdfjs } from "react-pdf";
@@ -22,18 +23,21 @@ class Cv extends Component {
     return (
       <div>
         <Nav />
-        <div>
-          <div>
+        <div className={CvCss.CvmDiv}>
+          <div className={CvCss.CvBtnDiv}>
             <button onClick={this.goToPrevPage} className={CvCss.prev}>
               Prev
             </button>
             <button onClick={this.goToNextPage} className={CvCss.next}>
               Next
             </button>
+            <a href={CvPdf} download>
+              Click to download
+            </a>
           </div>
           <div>
             <Document file={CvPdf} onLoadSuccess={this.onDocumentLoadSuccess}>
-              <Page pageNumber={pageNumber} width={600} />
+              <Page pageNumber={pageNumber} width={800} />
             </Document>
           </div>
           <div>
