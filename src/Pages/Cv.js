@@ -22,7 +22,26 @@ class Cv extends Component {
     return (
       <div>
         <Nav />
-        <div></div>
+        <div>
+          <div>
+            <button onClick={this.goToPrevPage} className={CvCss.prev}>
+              Prev
+            </button>
+            <button onClick={this.goToNextPage} className={CvCss.next}>
+              Next
+            </button>
+          </div>
+          <div>
+            <Document file={CvPdf} onLoadSuccess={this.onDocumentLoadSuccess}>
+              <Page pageNumber={pageNumber} width={600} />
+            </Document>
+          </div>
+          <div>
+            <p>
+              Page {pageNumber} of {numPages}
+            </p>
+          </div>
+        </div>
       </div>
     );
   }
