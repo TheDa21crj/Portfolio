@@ -1,0 +1,55 @@
+.CvmDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    max-height: 300vh;
+}
+
+.CvBtnDiv {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.prev,
+.next {
+    padding: 0.5% 2%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.prev {
+    background-color: lightgreen;
+}
+
+.next {
+    background-color: lightgreen;
+}
+
+.downloadIcon {
+    color: grey;
+}
+
+.downloadIcon:hover {
+    color: black;
+}
+
+.CvBtnDivMiddle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.pageDiv {
+    margin-top: -230px;
+}

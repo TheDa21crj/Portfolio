@@ -9,7 +9,7 @@ export default function Nav() {
   const [nav, setnav] = useState(false);
 
   const changeBg = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 1) {
       setnav(true);
     } else {
       setnav(false);
@@ -34,36 +34,36 @@ export default function Nav() {
       <ul className={NavCss.ul}>
         <li className={NavCss.li}>
           <Link to="/" className={NavCss.linkNav} id="activeHome">
-            Home
-          </Link>
-        </li>
+            Home{" "}
+          </Link>{" "}
+        </li>{" "}
         <li className={NavCss.li}>
           <Link to="/" className={NavCss.linkNav} id="activeAbout">
-            About
-          </Link>
-        </li>
+            About{" "}
+          </Link>{" "}
+        </li>{" "}
         <li className={NavCss.li}>
           <Link to="/" className={NavCss.linkNav} id="activePort">
-            Protfolio
-          </Link>
-        </li>
+            Protfolio{" "}
+          </Link>{" "}
+        </li>{" "}
         <li className={NavCss.li}>
           <Link to="/" className={NavCss.linkNav} id="activeService">
-            Services
-          </Link>
-        </li>
+            Services{" "}
+          </Link>{" "}
+        </li>{" "}
         <li className={NavCss.li}>
           <Link to="/" className={NavCss.linkNav} id="activeConctact">
-            Contact Us
-          </Link>
-        </li>
-      </ul>
+            Contact Us{" "}
+          </Link>{" "}
+        </li>{" "}
+      </ul>{" "}
       <div className={NavCss.burger} onClick={() => setShow(!show)}>
-        <div> </div> <div> </div> <div> </div>
-      </div>
+        <div> </div> <div> </div> <div> </div>{" "}
+      </div>{" "}
       <div id={show ? "s1" : "s2"}>
         <NavRes />
-      </div>
+      </div>{" "}
     </div>
   );
 }
