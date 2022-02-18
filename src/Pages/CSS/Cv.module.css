@@ -37,6 +37,7 @@
 }
 
 .downloadIcon {
+    cursor: pointer;
     color: grey;
 }
 
@@ -66,4 +67,29 @@
     position: fixed;
     right: 5%;
     bottom: 5%;
+}
+
+.CvBtnDivRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 10%;
+}
+
+#icon {
+    transition: all 0.3s;
+}
+
+.pTag {
+    position: absolute;
+    top: 110px;
+    right: 30px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#icon:hover>.pTag {
+    opacity: 1;
+    visibility: visible;
 }
