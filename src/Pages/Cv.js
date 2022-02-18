@@ -32,7 +32,7 @@ class Cv extends Component {
               Next
             </button>
             <a href={CvPdf} download>
-              <GetAppIcon fontSize="large" />
+              <GetAppIcon fontSize="large" className={CvCss.downloadIcon} />
             </a>
           </div>
           <div>
