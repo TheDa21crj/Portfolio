@@ -36,3 +36,36 @@
 .overlay {
     z-index: 2;
 }
+
+@media only screen and (max-width: 800px) {
+    .imgTag,
+    .headmDiv {
+        height: 100vh;
+    }
+    .headmDiv {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .imgTag,
+    .headmDiv {
+        height: 90vh;
+    }
+    .headmDiv {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .imgTag,
+    .headmDiv {
+        min-height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    .headmDiv {
+        font-size: 1.5rem;
+    }
+}
