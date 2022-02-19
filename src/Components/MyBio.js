@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import MybioCss from "./CSS/MyBio.module.css";
 import img0 from "./../img/me.jpg";
 import img from "./../img/dots.png.webp";
+import CvPdf from "./../pdf/Cv.pdf";
 
 export default function MyBio() {
   return (
@@ -53,12 +54,17 @@ export default function MyBio() {
             <div className={MybioCss.gbDivV}>91%</div>
           </div>
         </div>
-        <a
-          href="https://drive.google.com/file/d/1Thms9xiChIHvwO2qIDlVYkGU1rQz2__6/view?usp=sharinghttps://drive.google.com/file/d/1Thms9xiChIHvwO2qIDlVYkGU1rQz2__6/view?usp=sharing"
-          className={MybioCss.CvLink}
-        >
-          CV
-        </a>
+        <div className={MybioCss.myBioBtnDiv}>
+          <a href={CvPdf} download className={MybioCss.CvLink}>
+            Download CV
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1Thms9xiChIHvwO2qIDlVYkGU1rQz2__6/view?usp=sharinghttps://drive.google.com/file/d/1Thms9xiChIHvwO2qIDlVYkGU1rQz2__6/view?usp=sharing"
+            className={MybioCss.CvLink}
+          >
+            View CV
+          </a>
+        </div>
       </div>
     </div>
   );
