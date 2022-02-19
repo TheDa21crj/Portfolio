@@ -1,7 +1,16 @@
 .textDiv {
+    position: relative;
     overflow: hidden;
 }
 
 .text {
     transform: translateY(200%);
+}
+
+.text::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #fc6d6d;
 }
