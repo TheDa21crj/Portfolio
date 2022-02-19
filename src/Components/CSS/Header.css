@@ -6,7 +6,8 @@
     transform: translateY(200%);
 }
 
-#textCursor {
+
+/* #textCursor {
     position: relative;
 }
 
@@ -26,4 +27,4 @@
         left: 100%;
         margin: 0px -35px 0px 35px;
     }
-}
+} */
