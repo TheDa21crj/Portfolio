@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import HCss from "./CSS/Header.module.css";
 import Typewriter from "typewriter-effect";
 import video from "./../Videos/video.mp4";
