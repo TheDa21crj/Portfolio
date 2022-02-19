@@ -24,7 +24,7 @@
 .linkNav {
     padding: 10px 15px;
     text-decoration: none;
-    color: grey;
+    color: rgb(175, 175, 175);
     transition: all 0.3s;
     cursor: pointer;
 }
