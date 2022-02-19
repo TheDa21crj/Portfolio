@@ -2,10 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import MybioCss from "./CSS/MyBio.module.css";
 import img0 from "./../img/me.jpg";
+import img from "./../img/dots.png.webp";
 
 export default function MyBio() {
   return (
     <div className={MybioCss.mDiv} id="myBio" data-aos="fade-up">
+      <div className={MybioCss.dotsDiv}>
+        <img src={img} alt="" />
+      </div>
       <div className={MybioCss.ResimgDiv}>
         <img src={img0} alt="" className={MybioCss.imgme} />
       </div>
