@@ -5,26 +5,3 @@
 .text {
     transform: translateY(200%);
 }
-
-
-/* #textCursor {
-    position: relative;
-}
-
-#textCursor::after {
-    content: "";
-    position: absolute;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    background-color: transparent;
-    border-left: 2px solid #fc6d6d;
-    animation: typing 3s steps(22) infinite;
-}
-
-@keyframes typing {
-    100% {
-        left: 100%;
-        margin: 0px -35px 0px 35px;
-    }
-} */

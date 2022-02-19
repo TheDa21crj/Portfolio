@@ -11,7 +11,6 @@ export default function Header() {
       </div>
       <div className="textDiv">
         <p className="text" id="textCursor">
-          {/* A Full Stack Developer */}
           <Typewriter
             options={{
               strings: ["A Full Stack Developer"],
