@@ -14,6 +14,7 @@ export default function Nav() {
     gsap.to(".h1Wel", { y: "0%", duration: 1, stagger: 0.25 });
     gsap.to("#slider", { y: "-100%", duration: 2, delay: 0.75 });
     gsap.to("#NavBackDrop", { y: "-100%", duration: 1 }, "-=1");
+    gsap.to(".text", { y: "0%", duration: 1 }, "-=0.2");
   }, []);
 
   const changeBg = () => {

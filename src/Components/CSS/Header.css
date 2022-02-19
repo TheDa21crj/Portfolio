@@ -1,0 +1,7 @@
+.textDiv {
+    overflow: hidden;
+}
+
+.text {
+    transform: translateY(200%);
+}
