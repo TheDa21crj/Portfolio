@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Oswald:wght@500&display=swap");
 .headmDiv {
-    background-image: url("../../img/xhero_img.jpg.pagespeed.ic.WrSXj_3UV4.webp");
+    /* position: relative; */
+    /* background-image: url("../../img/xhero_img.jpg.pagespeed.ic.WrSXj_3UV4.webp"); */
+    /* background-color: gold; */
     height: 101vh;
     width: 100%;
     background-position: center;
@@ -17,10 +19,23 @@
     text-align: center;
     font-family: "Nunito", sans-serif;
     margin-top: -54px;
-    z-index: 0;
+    z-index: 2;
 }
 
 .headmDiv p {
     margin: 0px;
     filter: brightness(1);
+}
+
+.videoTag {
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    width: 100%;
+    height: 120vh;
+    z-index: 1;
+}
+
+.overlay {
+    z-index: 2;
 }

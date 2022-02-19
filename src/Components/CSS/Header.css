@@ -3,5 +3,6 @@
 }
 
 .text {
+    z-index: 2;
     transform: translateY(200%);
 }
