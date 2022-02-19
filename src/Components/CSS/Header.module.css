@@ -65,6 +65,10 @@
 }
 
 @media only screen and (max-width: 355px) {
+    .imgTag,
+    .headmDiv {
+        height: 60vh;
+    }
     .headmDiv {
         font-size: 1.5rem;
     }
