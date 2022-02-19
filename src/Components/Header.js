@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import HCss from "./CSS/Header.module.css";
+import Typewriter from "typewriter-effect";
 import "./CSS/Header.css";
 
 export default function Header() {
@@ -10,7 +11,14 @@ export default function Header() {
       </div>
       <div className="textDiv">
         <p className="text" id="textCursor">
-          A Full Stack Developer
+          {/* A Full Stack Developer */}
+          <Typewriter
+            options={{
+              strings: ["A Full Stack Developer"],
+              autoStart: true,
+              loop: true,
+            }}
+          />
         </p>
       </div>
     </div>
