@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import HCss from "./CSS/Header.module.css";
 import "./CSS/Header.css";
-import { gsap } from "gsap";
 
 export default function Header() {
   return (
