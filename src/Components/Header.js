@@ -10,7 +10,9 @@ export default function Header() {
         <p className="text">I'm Rishav Raj Singh</p>
       </div>
       <div className="textDiv">
-        <p className="text">A Full Stack Developer</p>
+        <p className="text" id="textCursor">
+          A Full Stack Developer
+        </p>
       </div>
     </div>
   );
