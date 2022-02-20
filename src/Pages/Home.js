@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import HomeCss from "./CSS/Home.module.css";
 import Nav from "./../Components/Nav";
 import Header from "./../Components/Header";
 import MyBio from "./../Components/MyBio";
@@ -14,7 +15,7 @@ export default function Home() {
     Aos.init({ offset: 180, duration: 1000 });
   }, []);
   return (
-    <div>
+    <div className={HomeCss.HomemDiv}>
       <Nav />
       <Header />
       <MyBio />

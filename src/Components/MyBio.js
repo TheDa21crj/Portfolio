@@ -10,7 +10,7 @@ export default function MyBio() {
   return (
     <div className={MybioCss.mDiv} id="myBio" data-aos="fade-up">
       <div className={MybioCss.dotsDiv}>
-        <img src={img} alt="" />
+        <img src={img} alt="Me" />
       </div>
       <div className={MybioCss.ResimgDiv}>
         <img src={img0} alt="" className={MybioCss.imgme} />
