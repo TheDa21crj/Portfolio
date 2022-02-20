@@ -7,6 +7,7 @@
     height: 100vh;
     background-color: black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -18,7 +19,9 @@
     overflow: hidden;
 }
 
-.h1Wel {
+.h1WelPar1 {}
+
+.h1Wel1 {
     /* transform: translateY(100%); */
     font-size: 5rem;
     letter-spacing: 0.18rem;

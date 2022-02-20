@@ -11,7 +11,7 @@ export default function Nav() {
   const [nav, setnav] = useState(false);
 
   // useEffect(() => {
-  //   gsap.to(".h1Wel", { y: "0%", duration: 1, stagger: 0.25 });
+  //   gsap.to(".h1Wel1", { y: "0%", duration: 1, stagger: 0.25 });
   //   gsap.to("#slider", { y: "-100%", duration: 2, delay: 0.75 });
   //   gsap.to("#NavBackDrop", { y: "-100%", duration: 1 }, "-=1");
   //   gsap.to(".text", { y: "0%", duration: 1 }, "-=0.2");
@@ -64,7 +64,10 @@ export default function Nav() {
       </div>
       <div id="NavBackDrop">
         <div className="h1WelPar">
-          <h1 className="h1Wel">Welcome</h1>
+          <h1 className="h1Wel1">Welcome</h1>
+        </div>
+        <div className="h1WelPar1">
+          <h1 className="h1Wel2">@TheDa21crj</h1>
         </div>
       </div>
       <div id="slider"></div>
