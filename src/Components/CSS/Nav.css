@@ -19,13 +19,23 @@
     overflow: hidden;
 }
 
-.h1WelPar1 {}
+.h1WelPar1 {
+    font-family: "Manrope", sans-serif;
+    width: 98%;
+    text-align: right;
+    font-size: 1rem;
+}
 
 .h1Wel1 {
-    /* transform: translateY(100%); */
+    transform: translateY(100%);
     font-size: 5rem;
     letter-spacing: 0.18rem;
+    font-weight: 900;
     font-family: "Manrope", sans-serif;
+}
+
+.h1Wel2 {
+    transform: translateY(100%);
 }
 
 #slider {
