@@ -19,7 +19,7 @@
 }
 
 .h1Wel {
-    transform: translateY(100%);
+    /* transform: translateY(100%); */
     font-size: 5rem;
     letter-spacing: 0.18rem;
     font-family: "Manrope", sans-serif;
