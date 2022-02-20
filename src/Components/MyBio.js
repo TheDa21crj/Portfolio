@@ -4,6 +4,7 @@ import MybioCss from "./CSS/MyBio.module.css";
 import img0 from "./../img/me.jpg";
 import img from "./../img/dots.png.webp";
 import CvPdf from "./../pdf/Cv.pdf";
+import GetAppIcon from "@material-ui/icons/GetApp";
 
 export default function MyBio() {
   return (
@@ -56,7 +57,10 @@ export default function MyBio() {
         </div>
         <div className={MybioCss.myBioBtnDiv}>
           <a href={CvPdf} download className={MybioCss.CvLink}>
-            Download CV
+            <p className={MybioCss.downloadtext}>Download CV</p>
+            <p className={MybioCss.downloadIcon}>
+              <GetAppIcon />
+            </p>
           </a>
           <a
             href="https://drive.google.com/file/d/1Thms9xiChIHvwO2qIDlVYkGU1rQz2__6/view?usp=sharinghttps://drive.google.com/file/d/1Thms9xiChIHvwO2qIDlVYkGU1rQz2__6/view?usp=sharing"

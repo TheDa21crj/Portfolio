@@ -98,7 +98,6 @@
     border-style: solid;
     border-width: 1px;
     border-color: rgb(0, 180, 0);
-    /* background-color: rgb(0, 180, 0); */
     color: rgb(0, 180, 0);
     border-radius: 5px;
     padding: 2% 8%;
@@ -108,8 +107,18 @@
 .CvLink:hover {
     box-shadow: inset -10.5em 0 0 0 rgb(0, 180, 0), inset 10.5em 0 0 0 rgb(0, 180, 0);
     color: white;
-    /* background-color: rgb(2, 161, 2); */
-    /* box-shadow: 2px 2px 5px rgb(194, 194, 194); */
+}
+
+.CvLink:hover>.downloadtext {
+    display: none;
+}
+
+.CvLink:hover>.downloadIcon {
+    display: flex;
+}
+
+.downloadIcon {
+    display: none;
 }
 
 .dotsDiv {
