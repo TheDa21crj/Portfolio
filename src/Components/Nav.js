@@ -10,12 +10,13 @@ export default function Nav() {
   const [show, setShow] = useState(true);
   const [nav, setnav] = useState(false);
 
-  // useEffect(() => {
-  //   gsap.to(".h1Wel1", { y: "0%", duration: 1, stagger: 0.25 });
-  //   gsap.to("#slider", { y: "-100%", duration: 2, delay: 0.75 });
-  //   gsap.to("#NavBackDrop", { y: "-100%", duration: 1 }, "-=1");
-  //   gsap.to(".text", { y: "0%", duration: 1 }, "-=0.2");
-  // }, []);
+  useEffect(() => {
+    gsap.to(".h1Wel1", { y: "0%", duration: 1, stagger: 0.25 });
+    gsap.to(".h1Wel2", { y: "0%", duration: 1, stagger: 0.25 }, "-=1");
+    gsap.to("#slider", { y: "-100%", duration: 2, delay: 0.75 });
+    gsap.to("#NavBackDrop", { y: "-100%", duration: 1 }, "-=1");
+    gsap.to(".text", { y: "0%", duration: 1 }, "-=0.2");
+  }, []);
 
   const changeBg = () => {
     if (window.scrollY >= 100) {
