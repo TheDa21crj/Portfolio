@@ -1,11 +1,11 @@
 import React from "react";
+import Map from "./Map";
 import { Link } from "react-router-dom";
 import CuCss from "./CSS/ContactUs.module.css";
 import CallIcon from "@material-ui/icons/Call";
 import MailIcon from "@material-ui/icons/Mail";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import { Map, GoogleApiWrapper } from "google-maps-react";
 
 export default function ContactUs() {
   return (
@@ -54,6 +54,7 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
+      <Map />
     </div>
   );
 }
