@@ -5,6 +5,7 @@ import CallIcon from "@material-ui/icons/Call";
 import MailIcon from "@material-ui/icons/Mail";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import { Map, GoogleApiWrapper } from "google-maps-react";
 
 export default function ContactUs() {
   return (
