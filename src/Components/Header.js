@@ -15,30 +15,6 @@ export default function Header() {
     setcursorY(e.pageY);
 
     animateRef.current.focus();
-
-    // animateRef.forEach()
-
-    // for (let i = 0; i < animateRef.current.children.length; i++) {
-    //   let currentX = 0;
-    //   let currentY = 0;
-
-    //   let speed = 0.2 - i * 0.15;
-
-    //   const animate = function () {
-    //     currentX = (cursorX - currentX) * speed;
-    //     currentY = (cursorY - currentY) * speed;
-
-    //     animateRef.current.children[i].style.left = currentX + "px";
-    //     animateRef.current.children[i].style.top = currentY + "px";
-
-    //     requestAnimationFrame(animate);
-    //   };
-
-    // animate();
-    // console.log(animateRef.current.children[i].tagName);
-    // }
-
-    // console.log(animateRef.current.children);
   });
 
   return (
@@ -67,13 +43,7 @@ export default function Header() {
           left: cursorX + "px",
           top: cursorY + "px",
         }}
-      >
-        {/* <div className="cursors"></div> */}
-        {/* <div className="cursors"></div> */}
-        {/* <div className="cursors"></div> */}
-        {/* <div className="cursors"></div> */}
-        {/* <div className="cursors"></div> */}
-      </div>
+      ></div>
     </div>
   );
 }
