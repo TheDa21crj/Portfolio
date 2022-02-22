@@ -19,7 +19,23 @@ export default function Header() {
     // animateRef.forEach()
 
     for (let i = 0; i < animateRef.current.children.length; i++) {
-      console.log(animateRef.current.children[i].tagName);
+      let currentX = 0;
+      let currentY = 0;
+
+      let speed = 0.2 - i * 0.15;
+
+      const animate = function () {
+        currentX = (cursorX - currentX) * speed;
+        currentY = (cursorY - currentY) * speed;
+
+        animateRef.current.children[i].style.left = currentX + "px";
+        animateRef.current.children[i].style.top = currentY + "px";
+
+        requestAnimationFrame(animate);
+      };
+
+      animate();
+      // console.log(animateRef.current.children[i].tagName);
     }
 
     // console.log(animateRef.current.children);
@@ -52,11 +68,11 @@ export default function Header() {
           top: cursorY + "px",
         }}
       >
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div className="cursors"></div>
+        <div className="cursors"></div>
+        <div className="cursors"></div>
+        <div className="cursors"></div>
+        <div className="cursors"></div>
       </div>
     </div>
   );
