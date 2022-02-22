@@ -7,7 +7,11 @@
     transform: translateY(200%);
 }
 
-#head:hover>.cursor {
+#head {
+    cursor: none;
+}
+
+#head:hover>.cursors {
     width: 20px;
     height: 20px;
     background-color: red;

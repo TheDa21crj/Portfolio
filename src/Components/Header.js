@@ -12,6 +12,7 @@ export default function Header() {
     setcursorX(e.pageX);
     setcursorY(e.pageY);
   });
+
   return (
     <div className={HCss.headmDiv} id="head">
       <img src={img} alt="" className={HCss.imgTag} />
@@ -32,7 +33,7 @@ export default function Header() {
         </div>
       </div>
       <div
-        className="cursor"
+        className="cursors"
         style={{
           left: cursorX + "px",
           top: cursorY + "px",
