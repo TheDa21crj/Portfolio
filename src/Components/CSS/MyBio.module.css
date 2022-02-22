@@ -164,10 +164,14 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .imgme {
+        width: 100%;
+        height: auto;
+    }
     .ResimgDiv {
-        width: 50%;
         display: flex;
         justify-content: space-evenly;
+        background-color: red;
     }
     .mybioText {
         width: 60%;
