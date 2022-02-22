@@ -19,6 +19,7 @@
         "react-scrollspy": "^3.4.3",
         "react-scrollspy-nav": "^1.2.4",
         "react-scrollspy-navigation": "^1.0.2",
+        "react-spring": "^9.4.3",
         "typewriter-effect": "^2.18.2",
         "web-vitals": "^1.1.2"
     },
