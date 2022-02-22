@@ -147,11 +147,6 @@
     align-items: center;
 }
 
-
-/* .cursor {
-    display: none;
-} */
-
 @media only screen and (max-width: 1100px) {
     .mDiv {
         flex-direction: column;
