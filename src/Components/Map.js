@@ -27,7 +27,7 @@ export default function () {
       <div class="mapouter">
         <div class="gmap_canvas">
           <iframe
-            width="500"
+            width="600"
             height="500"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=6.721868,3.229548&t=&z=13&ie=UTF8&iwloc=&output=embed"
