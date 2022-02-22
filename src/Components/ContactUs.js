@@ -54,7 +54,7 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
-      {/* <Map /> */}
+      <Map />
     </div>
   );
 }
