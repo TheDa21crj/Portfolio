@@ -8,14 +8,18 @@
 }
 
 #head {
-    /* cursor: none; */
+    cursor: none;
 }
 
 #head:hover>.cursors {
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: transparent;
     position: absolute;
-    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 180, 0);
+    border-radius: 50%;
     z-index: 2;
+    backdrop-filter: blur(1px);
 }

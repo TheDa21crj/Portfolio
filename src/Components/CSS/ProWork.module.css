@@ -45,10 +45,13 @@
     .mdiv {
         margin-bottom: 30px;
     }
-}
-
-@media only screen and (max-width: 1050px) {
     .imgPw {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .LinkP {
+        font-size: 1.2rem;
     }
 }
