@@ -66,6 +66,8 @@
 
 @media only screen and (max-width: 800px) {
     #searchInp {
+        /* width: 60%; */
+        /* padding: 3% 0px; */
         font-size: 1.2rem;
     }
 }
@@ -73,5 +75,18 @@
 @media only screen and (max-width: 740px) {
     .mDiv {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #searchInp {
+        width: 95%;
+        padding: 1% 1%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #searchInp {
+        padding: 3% 1%;
     }
 }
