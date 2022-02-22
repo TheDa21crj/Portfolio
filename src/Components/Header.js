@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import HCss from "./CSS/Header.module.css";
 import Typewriter from "typewriter-effect";
 import img from "./../img/headerImg.webp";
 import "./CSS/Header.css";
 
 export default function Header() {
+  const [cursorX, setcursorX] = useState();
+  const [cursorY, setcursorY] = useState();
+
+  window.addEventListener("mousemove", function (e) {
+    setcursorX(e.pageX);
+    setcursorY(e.pageY);
+  });
   return (
     <div className={HCss.headmDiv} id="head">
       <img src={img} alt="" className={HCss.imgTag} />
@@ -24,6 +31,13 @@ export default function Header() {
           </p>
         </div>
       </div>
+      <div
+        className="cursor"
+        style={{
+          left: cursorX + "px",
+          top: cursorY + "px",
+        }}
+      ></div>
     </div>
   );
 }
