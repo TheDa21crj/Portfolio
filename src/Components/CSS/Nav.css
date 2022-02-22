@@ -28,7 +28,7 @@
 }
 
 .h1Wel1 {
-    /* transform: translateY(100%); */
+    transform: translateY(100%);
     font-size: 5rem;
     letter-spacing: 0.18rem;
     font-weight: 900;
@@ -36,7 +36,7 @@
 }
 
 .h1Wel2 {
-    /* transform: translateY(100%); */
+    transform: translateY(100%);
 }
 
 #slider {
