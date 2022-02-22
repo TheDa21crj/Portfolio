@@ -171,7 +171,6 @@
     .ResimgDiv {
         display: flex;
         justify-content: space-evenly;
-        background-color: red;
     }
     .mybioText {
         width: 60%;
