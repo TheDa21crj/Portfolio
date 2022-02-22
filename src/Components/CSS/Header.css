@@ -6,3 +6,16 @@
     z-index: 2;
     transform: translateY(200%);
 }
+
+#head {
+    /* cursor: none; */
+}
+
+#head:hover>.cursors {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 2;
+}
