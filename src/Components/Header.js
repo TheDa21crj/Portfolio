@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import HCss from "./CSS/Header.module.css";
 import Typewriter from "typewriter-effect";
 import img from "./../img/headerImg.webp";
