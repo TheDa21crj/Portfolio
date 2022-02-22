@@ -16,7 +16,13 @@ export default function Header() {
 
     animateRef.current.focus();
 
-    console.log(animateRef);
+    // animateRef.forEach()
+
+    for (let i = 0; i < animateRef.current.children.length; i++) {
+      console.log(animateRef.current.children[i].tagName);
+    }
+
+    // console.log(animateRef.current.children);
   });
 
   return (
