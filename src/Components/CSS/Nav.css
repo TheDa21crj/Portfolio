@@ -60,9 +60,10 @@
     .h1Wel2 {
         font-size: 0.8rem;
     }
-    @media only screen and (max-width: 350px) {
-        .h1Wel1 {
-            font-size: 3rem;
-        }
+}
+
+@media only screen and (max-width: 350px) {
+    .h1Wel1 {
+        font-size: 3rem;
     }
 }
