@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import HCss from "./CSS/Header.module.css";
 import Typewriter from "typewriter-effect";
 import img from "./../img/headerImg.webp";
@@ -8,9 +8,15 @@ export default function Header() {
   const [cursorX, setcursorX] = useState();
   const [cursorY, setcursorY] = useState();
 
+  const animateRef = useRef(null);
+
   window.addEventListener("mousemove", function (e) {
     setcursorX(e.pageX);
     setcursorY(e.pageY);
+
+    animateRef.current.focus();
+
+    console.log(animateRef);
   });
 
   return (
@@ -34,11 +40,18 @@ export default function Header() {
       </div>
       <div
         className="cursors"
+        ref={animateRef}
         style={{
           left: cursorX + "px",
           top: cursorY + "px",
         }}
-      ></div>
+      >
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   );
 }
