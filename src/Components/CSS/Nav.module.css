@@ -68,9 +68,10 @@
     .NrmDiv {
         display: block;
         position: absolute;
-        top: 60px;
+        top: 48px;
         right: 0px;
         padding: 1% 1% 1% 0px;
+        width: 100%;
         background-color: white;
     }
     .NrmDiv ul {
