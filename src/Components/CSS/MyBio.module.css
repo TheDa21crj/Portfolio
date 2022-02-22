@@ -164,9 +164,11 @@
 }
 
 @media only screen and (max-width: 800px) {
+    .imgme {
+        width: 100%;
+        height: auto;
+    }
     .ResimgDiv {
-        width: 50%;
-        display: flex;
         justify-content: space-evenly;
     }
     .mybioText {
@@ -176,10 +178,19 @@
     .CvLink {
         padding: 3% 8%;
     }
-}
-
-@media only screen and (max-width: 800px) {
     .myBioBtnDiv {
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .mybioText {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .mybioText {
+        margin-top: 30px;
     }
 }
