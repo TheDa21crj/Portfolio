@@ -53,7 +53,7 @@ export default function ContactUs() {
             </Link>
           </div>
         </div>
-        <div>
+        <div className={CuCss.mapDiv}>
           <Map />
         </div>
       </div>
