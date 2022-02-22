@@ -8,7 +8,7 @@
 }
 
 #head {
-    cursor: none;
+    /* cursor: none; */
 }
 
 #head:hover>.cursors {
