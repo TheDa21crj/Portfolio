@@ -32,7 +32,7 @@ export default function Header() {
         </div>
       </div>
       <div
-        className="cursor"
+        className={HCss.cursor}
         style={{
           left: cursorX + "px",
           top: cursorY + "px",
