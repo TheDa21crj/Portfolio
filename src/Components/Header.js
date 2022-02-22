@@ -9,13 +9,8 @@ export default function Header() {
   const [cursorY, setcursorY] = useState();
 
   window.addEventListener("mousemove", function (e) {
+    setcursorX(e.pageX);
     setcursorY(e.pageY);
-    if (e.pageX >= 1263.33) {
-      setcursorX();
-    } else {
-      setcursorX(e.pageX);
-    }
-    // console.log(e.pageX + "\t" + e.pageY);
   });
   return (
     <div className={HCss.headmDiv} id="head">
