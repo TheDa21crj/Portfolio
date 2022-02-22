@@ -18,25 +18,25 @@ export default function Header() {
 
     // animateRef.forEach()
 
-    for (let i = 0; i < animateRef.current.children.length; i++) {
-      let currentX = 0;
-      let currentY = 0;
+    // for (let i = 0; i < animateRef.current.children.length; i++) {
+    //   let currentX = 0;
+    //   let currentY = 0;
 
-      let speed = 0.2 - i * 0.15;
+    //   let speed = 0.2 - i * 0.15;
 
-      const animate = function () {
-        currentX = (cursorX - currentX) * speed;
-        currentY = (cursorY - currentY) * speed;
+    //   const animate = function () {
+    //     currentX = (cursorX - currentX) * speed;
+    //     currentY = (cursorY - currentY) * speed;
 
-        animateRef.current.children[i].style.left = currentX + "px";
-        animateRef.current.children[i].style.top = currentY + "px";
+    //     animateRef.current.children[i].style.left = currentX + "px";
+    //     animateRef.current.children[i].style.top = currentY + "px";
 
-        requestAnimationFrame(animate);
-      };
+    //     requestAnimationFrame(animate);
+    //   };
 
-      animate();
-      // console.log(animateRef.current.children[i].tagName);
-    }
+    // animate();
+    // console.log(animateRef.current.children[i].tagName);
+    // }
 
     // console.log(animateRef.current.children);
   });
@@ -68,11 +68,11 @@ export default function Header() {
           top: cursorY + "px",
         }}
       >
-        <div className="cursors"></div>
-        <div className="cursors"></div>
-        <div className="cursors"></div>
-        <div className="cursors"></div>
-        <div className="cursors"></div>
+        {/* <div className="cursors"></div> */}
+        {/* <div className="cursors"></div> */}
+        {/* <div className="cursors"></div> */}
+        {/* <div className="cursors"></div> */}
+        {/* <div className="cursors"></div> */}
       </div>
     </div>
   );

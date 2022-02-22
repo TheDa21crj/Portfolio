@@ -7,10 +7,6 @@
     transform: translateY(200%);
 }
 
-#head {
-    /* cursor: none; */
-}
-
 #head:hover>.cursors {
     width: 20px;
     height: 20px;
