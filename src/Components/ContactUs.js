@@ -53,8 +53,10 @@ export default function ContactUs() {
             </Link>
           </div>
         </div>
+        <div>
+          <Map />
+        </div>
       </div>
-      <Map />
     </div>
   );
 }
