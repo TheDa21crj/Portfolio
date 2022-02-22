@@ -63,7 +63,7 @@ export default function MyBio() {
             </p>
           </a>
           <a
-            href="https://drive.google.com/file/d/1Thms9xiChIHvwO2qIDlVYkGU1rQz2__6/view?usp=sharinghttps://drive.google.com/file/d/1Thms9xiChIHvwO2qIDlVYkGU1rQz2__6/view?usp=sharing"
+            href="https://drive.google.com/file/d/1oGLhZdb3-oSY8uk52JzWW3WT_8Bh5v_j/view?usp=sharing"
             className={MybioCss.CvLink}
           >
             View CV
