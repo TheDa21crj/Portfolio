@@ -68,10 +68,14 @@
     .NrmDiv {
         display: block;
         position: absolute;
-        top: 60px;
+        top: 48px;
         right: 0px;
         padding: 1% 1% 1% 0px;
+        width: 100%;
         background-color: white;
+        border-style: solid;
+        border-width: 0px 0px 1px 0px;
+        border-color: grey;
     }
     .NrmDiv ul {
         list-style: none;
