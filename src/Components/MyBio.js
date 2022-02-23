@@ -15,7 +15,7 @@ export default function MyBio() {
     <div
       className={MybioCss.mDiv}
       data-aos="fade-up"
-      id={myState === true ? "darkModeEventBoxbg" : ""}
+      id={myState === true ? "darkMyBiomDiv" : ""}
     >
       <div className={MybioCss.dotsDiv}>
         <img src={img} alt="Me" />
@@ -23,7 +23,10 @@ export default function MyBio() {
       <div className={MybioCss.ResimgDiv}>
         <img src={img0} alt="" className={MybioCss.imgme} />
       </div>
-      <div className={MybioCss.mybioText}>
+      <div
+        className={MybioCss.mybioText}
+        id={myState === true ? "darkmybioText" : ""}
+      >
         <h1 className={MybioCss.myBioH1}>My Bio</h1>
         <p className={MybioCss.mBp}>
           Hi, I'm <b>Rishav Raj Singh</b>, a student at
@@ -39,28 +42,48 @@ export default function MyBio() {
           <p>HTML</p>
           <div className={MybioCss.fullL}>
             <div className={MybioCss.greenBar} id={MybioCss.gb1}></div>
-            <div className={MybioCss.gbDivV}>92%</div>
+            <div
+              className={MybioCss.gbDivV}
+              id={myState === true ? "darkgbDivV0" : ""}
+            >
+              92%
+            </div>
           </div>
         </div>
         <div className={MybioCss.barDiv}>
           <p>CSS</p>
           <div className={MybioCss.fullL}>
             <div className={MybioCss.greenBar} id={MybioCss.gb2}></div>
-            <div className={MybioCss.gbDivV}>90%</div>
+            <div
+              className={MybioCss.gbDivV}
+              id={myState === true ? "darkgbDivV1" : ""}
+            >
+              90%
+            </div>
           </div>
         </div>
         <div className={MybioCss.barDiv}>
           <p>React</p>
           <div className={MybioCss.fullL}>
             <div className={MybioCss.greenBar} id={MybioCss.gb3}></div>
-            <div className={MybioCss.gbDivV}>93%</div>
+            <div
+              className={MybioCss.gbDivV}
+              id={myState === true ? "darkgbDivV2" : ""}
+            >
+              93%
+            </div>
           </div>
         </div>
         <div className={MybioCss.barDiv}>
           <p>JavaScript</p>
           <div className={MybioCss.fullL}>
             <div className={MybioCss.greenBar} id={MybioCss.gb4}></div>
-            <div className={MybioCss.gbDivV}>91%</div>
+            <div
+              className={MybioCss.gbDivV}
+              id={myState === true ? "darkgbDivV3" : ""}
+            >
+              91%
+            </div>
           </div>
         </div>
         <div className={MybioCss.myBioBtnDiv}>

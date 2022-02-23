@@ -1,3 +1,14 @@
-#darkModeEventBoxbg {
+#darkMyBiomDiv {
     background-color: #0a0a0a;
+}
+
+#darkmybioText {
+    color: white;
+}
+
+#darkgbDivV0,
+#darkgbDivV1,
+#darkgbDivV2,
+#darkgbDivV3 {
+    color: black;
 }

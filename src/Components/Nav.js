@@ -35,8 +35,11 @@ export default function Nav() {
 
   window.addEventListener("scroll", changeBg);
 
+  let darkNavmDiv =
+    myState === true && nav ? { backgroundColor: "#0a0a0a" } : {};
   return (
-    <div className={NavCss.mDiv} id={nav ? "active" : "hello"}>
+    // <div id={myState === true ? "darkNavmDiv" : ""}>
+    <div className={NavCss.mDiv} id={nav ? "active" : ""} style={darkNavmDiv}>
       <ul className={NavCss.ul}>
         <li className={NavCss.li}>
           <Link to="head" className={NavCss.linkNav} id="activeHome">
@@ -102,5 +105,6 @@ export default function Nav() {
       </div>
       <div id="slider"></div>
     </div>
+    // </div>
   );
 }
