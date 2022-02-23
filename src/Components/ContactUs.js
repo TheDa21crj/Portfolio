@@ -6,8 +6,11 @@ import CallIcon from "@material-ui/icons/Call";
 import MailIcon from "@material-ui/icons/Mail";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import { useSelector } from "react-redux";
 
 export default function ContactUs() {
+  const myState = useSelector((state) => state.darkmode);
+
   return (
     <div className={CuCss.mDiv} id="ContactUs" data-aos="fade-up">
       <h1> Contact </h1>
