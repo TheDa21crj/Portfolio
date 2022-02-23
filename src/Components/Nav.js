@@ -38,6 +38,9 @@ export default function Nav() {
 
   let darkNavmDiv =
     myState === true && nav ? { backgroundColor: "#0a0a0a" } : {};
+
+  let darkNavburger =
+    myState === true && nav ? { backgroundColor: "white" } : {};
   return (
     <div className={NavCss.mDiv} id={nav ? "active" : ""} style={darkNavmDiv}>
       <ul className={NavCss.ul}>
@@ -87,12 +90,13 @@ export default function Nav() {
       </ul>
       <div
         className={NavCss.burger}
-        // id={myState === true && nav ? darkBurger : ""}
         onClick={() => {
           setShow(!show);
         }}
       >
-        <div> </div> <div> </div> <div> </div>
+        <div style={darkNavburger}> </div>
+        <div style={darkNavburger}> </div>
+        <div style={darkNavburger}> </div>
       </div>
       <div id={show ? "s1" : "s2"}>
         <NavRes />

@@ -11,11 +11,14 @@ import { useSelector } from "react-redux";
 export default function MyBio() {
   const myState = useSelector((state) => state.darkmode);
 
+  let darkMyBiomDiv = myState === true ? { backgroundColor: "#0a0a0a" } : {};
+
   return (
     <div
       className={MybioCss.mDiv}
       data-aos="fade-up"
-      id={myState === true ? "darkMyBiomDiv" : ""}
+      id="myBio"
+      style={darkMyBiomDiv}
     >
       <div className={MybioCss.dotsDiv}>
         <img src={img} alt="Me" />
