@@ -80,17 +80,14 @@ export default function Nav() {
                 onClick={() => setDark(false)}
               />
             ) : (
-              <Brightness7Icon
-                fontSize="large"
-                // id={myState === true ? "darkSvgIcon" : ""}
-                onClick={() => setDark(true)}
-              />
+              <Brightness7Icon fontSize="large" onClick={() => setDark(true)} />
             )}
           </div>
         </li>
       </ul>
       <div
         className={NavCss.burger}
+        // id={myState === true && nav ? darkBurger : ""}
         onClick={() => {
           setShow(!show);
         }}
