@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Nav from "./../Components/Error/Nav";
 import CvCss from "./CSS/Cv.module.css";
 import GetAppIcon from "@material-ui/icons/GetApp";
