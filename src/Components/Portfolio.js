@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import JSONDATA from "./../Data/Portfolio.json";
 import ProWork from "./ProWork";
 import PCss from "./CSS/Portfolio.module.css";
+import "./DarkModeCss/Portfolio.css";
 import { useSelector } from "react-redux";
 
 export default function Portfolio() {
