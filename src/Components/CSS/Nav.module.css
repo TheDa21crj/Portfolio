@@ -51,12 +51,17 @@
 }
 
 .darkmodeBtn {
-    position: fixed;
-    top: 0px;
-    right: 0px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 800px) {
+    .darkmodeBtn {
+        top: 5px;
+        left: 20px;
+    }
     .mDiv {
         justify-content: end;
         height: 3.6vh;
