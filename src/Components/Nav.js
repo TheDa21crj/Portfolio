@@ -8,11 +8,15 @@ import { gsap } from "gsap";
 import Brightness7Icon from "@material-ui/icons/Brightness7";
 import Brightness4Icon from "@material-ui/icons/Brightness4";
 import { useSelector, useDispatch } from "react-redux";
+import { darkmode } from "./../actions/index";
 
 export default function Nav() {
   const [show, setShow] = useState(true);
   const [nav, setnav] = useState(false);
   const [showDark, setDark] = useState(false);
+
+  const myState = useSelector((state) => state.darkmode);
+  const dispatch = useDispatch();
 
   useEffect(() => {
     gsap.to(".h1Wel1", { y: "0%", duration: 1, stagger: 0.25 });
@@ -61,7 +65,7 @@ export default function Nav() {
           </Link>
         </li>
       </ul>
-      <div className={NavCss.darkmodeBtn}>
+      <div className={NavCss.darkmodeBtn} onClick={() => dispatch(darkmode())}>
         {showDark ? (
           <Brightness4Icon fontSize="large" onClick={() => setDark(false)} />
         ) : (
