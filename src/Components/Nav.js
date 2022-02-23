@@ -62,9 +62,9 @@ export default function Nav() {
       </ul>
       <div className={NavCss.darkmodeBtn}>
         {showDark ? (
-          <Brightness7Icon fontSize="large" />
+          <Brightness4Icon fontSize="large" onClick={() => setDark(false)} />
         ) : (
-          <Brightness4Icon fontSize="large" />
+          <Brightness7Icon fontSize="large" onClick={() => setDark(true)} />
         )}
       </div>
       <div className={NavCss.burger} onClick={() => setShow(!show)}>
