@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-scroll";
+import { useSelector } from "react-redux";
 import NavCss from "./CSS/Nav.module.css";
 import "./CSS/NavRes.css";
+import "./DarkModeCss/Nav.css";
 
 export default function NavRes() {
+  const myState = useSelector((state) => state.darkmode);
+
   return (
-    <div className={NavCss.NrmDiv} id="nav">
+    <div className={NavCss.NrmDiv} id={myState === true ? "darkNavMobo" : ""}>
       <ul>
         <li>
           <Link to="head"> Home </Link>

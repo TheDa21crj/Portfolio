@@ -19,16 +19,17 @@
 // })(MapContainer);
 
 import React from "react";
-import Map from "./CSS/Map.css";
+import "./CSS/Map.css";
+import { useSelector } from "react-redux";
 
 export default function () {
+  const myState = useSelector((state) => state.darkmode);
+
   return (
     <div>
-      <div class="mapouter">
-        <div class="gmap_canvas">
+      <div className="mapouter">
+        <div className={myState === true ? "darkgmap_canvas" : "gmap_canvas"}>
           <iframe
-            // width="600"
-            // height="500"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=sona%20village&t=&z=13&ie=UTF8&iwloc=&output=embed"
             frameborder="0"
