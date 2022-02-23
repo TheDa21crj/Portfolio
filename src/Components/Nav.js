@@ -5,10 +5,13 @@ import NavCss from "./CSS/Nav.module.css";
 import "./CSS/Nav.css";
 import "./CSS/NavRes.css";
 import { gsap } from "gsap";
+import Brightness7Icon from "@material-ui/icons/Brightness7";
+import Brightness4Icon from "@material-ui/icons/Brightness4";
 
 export default function Nav() {
   const [show, setShow] = useState(true);
   const [nav, setnav] = useState(false);
+  const [showDark, setDark] = useState(false);
 
   useEffect(() => {
     gsap.to(".h1Wel1", { y: "0%", duration: 1, stagger: 0.25 });
@@ -57,6 +60,13 @@ export default function Nav() {
           </Link>
         </li>
       </ul>
+      <div className={NavCss.darkmodeBtn}>
+        {showDark ? (
+          <Brightness7Icon fontSize="large" />
+        ) : (
+          <Brightness4Icon fontSize="large" />
+        )}
+      </div>
       <div className={NavCss.burger} onClick={() => setShow(!show)}>
         <div> </div> <div> </div> <div> </div>
       </div>
