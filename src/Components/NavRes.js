@@ -8,11 +8,6 @@ import "./DarkModeCss/Nav.css";
 export default function NavRes() {
   const myState = useSelector((state) => state.darkmode);
 
-  // let darkNavMobo =
-  //   myState === true && nav
-  //     ? { backgroundColor: "#0a0a0a", color: "white" }
-  //     : {};
-
   return (
     <div className={NavCss.NrmDiv} id={myState === true ? "darkNavMobo" : ""}>
       <ul>
