@@ -16,16 +16,6 @@
     width: 600px;
 }
 
-.darkgmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    max-height: 500px;
-    max-width: 600px;
-    height: 500px;
-    width: 600px;
-    filter: grayscale(20%) invert(95%);
-}
-
 #gmap_canvas {
     max-height: 500px;
     max-width: 600px;
