@@ -1,1 +1,5 @@
 /* id={myState === true ? "darkNavmDiv" : ""} */
+
+#darkSvgIcon {
+    color: white;
+}

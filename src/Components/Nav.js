@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import NavRes from "./NavRes";
 import NavCss from "./CSS/Nav.module.css";
+import "./DarkModeCss/Nav.css";
 import "./CSS/Nav.css";
 import "./CSS/NavRes.css";
 import { gsap } from "gsap";
@@ -75,10 +76,15 @@ export default function Nav() {
             {showDark ? (
               <Brightness4Icon
                 fontSize="large"
+                id={myState === true ? "darkSvgIcon" : ""}
                 onClick={() => setDark(false)}
               />
             ) : (
-              <Brightness7Icon fontSize="large" onClick={() => setDark(true)} />
+              <Brightness7Icon
+                fontSize="large"
+                // id={myState === true ? "darkSvgIcon" : ""}
+                onClick={() => setDark(true)}
+              />
             )}
           </div>
         </li>
