@@ -38,7 +38,6 @@ export default function Nav() {
   let darkNavmDiv =
     myState === true && nav ? { backgroundColor: "#0a0a0a" } : {};
   return (
-    // <div id={myState === true ? "darkNavmDiv" : ""}>
     <div className={NavCss.mDiv} id={nav ? "active" : ""} style={darkNavmDiv}>
       <ul className={NavCss.ul}>
         <li className={NavCss.li}>
