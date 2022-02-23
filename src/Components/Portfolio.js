@@ -14,6 +14,7 @@ export default function Portfolio() {
   const filterData = async function (e) {
     setSearch(e.target.value);
   };
+
   return (
     <div className={PCss.mDiv} id="portfolio" data-aos="fade-up">
       <h1 id={myState === true ? "darkPortfolioH1" : ""}>Portfolio</h1>
@@ -21,6 +22,7 @@ export default function Portfolio() {
         <input
           type="text"
           name=""
+          className={myState === true ? "darkSearchInp" : "lightSearchInp"}
           id={PCss.searchInp}
           placeholder="find a project"
           onChange={filterData}
