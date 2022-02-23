@@ -65,18 +65,16 @@ export default function Nav() {
           </Link>
         </li>
       </ul>
-      <div className={NavCss.burger} onClick={() => setShow(!show)}>
+      <div
+        className={NavCss.burger}
+        onClick={() => {
+          setShow(!show);
+        }}
+      >
         <div> </div> <div> </div> <div> </div>
       </div>
       <div id={show ? "s1" : "s2"}>
         <NavRes />
-      </div>
-      <div className={NavCss.darkmodeBtn} onClick={() => dispatch(darkmode())}>
-        {showDark ? (
-          <Brightness4Icon fontSize="large" onClick={() => setDark(false)} />
-        ) : (
-          <Brightness7Icon fontSize="large" onClick={() => setDark(true)} />
-        )}
       </div>
       <div id="NavBackDrop">
         <div className="h1WelPar">
