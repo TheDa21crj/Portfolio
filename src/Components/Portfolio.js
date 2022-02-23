@@ -3,16 +3,19 @@ import { Link } from "react-router-dom";
 import JSONDATA from "./../Data/Portfolio.json";
 import ProWork from "./ProWork";
 import PCss from "./CSS/Portfolio.module.css";
+import { useSelector } from "react-redux";
 
 export default function Portfolio() {
   const [search, setSearch] = useState("");
+
+  const myState = useSelector((state) => state.darkmode);
 
   const filterData = async function (e) {
     setSearch(e.target.value);
   };
   return (
     <div className={PCss.mDiv} id="portfolio" data-aos="fade-up">
-      <h1>Portfolio</h1>
+      <h1 id={myState === true ? "darkPortfolioH1" : ""}>Portfolio</h1>
       <div className={PCss.PinpDiv}>
         <input
           type="text"
