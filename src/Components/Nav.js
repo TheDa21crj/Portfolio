@@ -5,11 +5,18 @@ import NavCss from "./CSS/Nav.module.css";
 import "./CSS/Nav.css";
 import "./CSS/NavRes.css";
 import { gsap } from "gsap";
+import { useSelector, useDispatch } from "react-redux";
+import { darkmode } from "./../actions/index";
+import Brightness7Icon from "@material-ui/icons/Brightness7";
+import Brightness4Icon from "@material-ui/icons/Brightness4";
 
 export default function Nav() {
   const [show, setShow] = useState(true);
   const [nav, setnav] = useState(false);
+  const [showDark, setDark] = useState(false);
 
+  const myState = useSelector((state) => state.darkmode);
+  const dispatch = useDispatch();
   useEffect(() => {
     gsap.to(".h1Wel1", { y: "0%", duration: 1, stagger: 0.25 });
     gsap.to(".h1Wel2", { y: "0%", duration: 1, stagger: 0.25 }, "-=1");
@@ -55,6 +62,32 @@ export default function Nav() {
           <Link to="ContactUs" className={NavCss.linkNav} id="activeConctact">
             Contact
           </Link>
+        </li>
+      </ul>
+      <ul className={NavCss.ulDark}>
+        <li className={NavCss.liDark}>
+          <div
+            className={NavCss.darkmodeBtn}
+            onClick={() => dispatch(darkmode())}
+          >
+            {showDark ? (
+              <Brightness4Icon
+                fontSize="large"
+                onClick={() => {
+                  setDark(false);
+                  dispatch(darkmode());
+                }}
+              />
+            ) : (
+              <Brightness7Icon
+                fontSize="large"
+                onClick={() => {
+                  setDark(true);
+                  dispatch(darkmode());
+                }}
+              />
+            )}
+          </div>
         </li>
       </ul>
       <div

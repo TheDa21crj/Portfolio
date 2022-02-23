@@ -50,7 +50,22 @@
     display: none;
 }
 
+.ulDark {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.liDark {
+    list-style-type: none;
+}
+
 @media only screen and (max-width: 800px) {
+    .darkmodeBtn {
+        position: fixed;
+        bottom: 5%;
+        left: 20px;
+    }
     .mDiv {
         justify-content: end;
         height: 3.6vh;

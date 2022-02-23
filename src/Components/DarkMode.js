@@ -30,7 +30,7 @@ export default function DarkMode() {
             }}
           />
         )}
-      </div>{" "}
+      </div>
     </div>
   );
 }
