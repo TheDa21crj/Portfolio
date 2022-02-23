@@ -1,5 +1,6 @@
 import React from "react";
 import Map from "./Map";
+import "./DarkModeCss/Contact.css";
 import { Link } from "react-router-dom";
 import CuCss from "./CSS/ContactUs.module.css";
 import CallIcon from "@material-ui/icons/Call";
@@ -40,7 +41,11 @@ export default function ContactUs() {
               }}
               target="_blank"
             >
-              <GitHubIcon fontSize="large" className={CuCss.iconsDivI1} />
+              <GitHubIcon
+                fontSize="large"
+                className={CuCss.iconsDivI1}
+                id={myState === true ? "darkGitHubIcon" : ""}
+              />
             </Link>
             <Link
               to={{
