@@ -27,8 +27,6 @@ export default function () {
       <div class="mapouter">
         <div class="gmap_canvas">
           <iframe
-            // width="600"
-            // height="500"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=sona%20village&t=&z=13&ie=UTF8&iwloc=&output=embed"
             frameborder="0"
