@@ -9,6 +9,7 @@ import Portfolio from "./../Components/Portfolio";
 import Services from "./../Components/Services";
 import ContactUs from "./../Components/ContactUs";
 import Footer from "./../Components/Footer";
+import DarkMode from "./../Components/DarkMode";
 
 export default function Home() {
   useEffect(() => {
@@ -19,6 +20,7 @@ export default function Home() {
       <Nav />
       <Header />
       <MyBio />
+      <DarkMode />
       <Portfolio />
       <Services />
       <ContactUs />
