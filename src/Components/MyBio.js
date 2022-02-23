@@ -1,14 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import MybioCss from "./CSS/MyBio.module.css";
+import "./DarkModeCss/MyBio.css";
 import img0 from "./../img/me.jpg";
 import img from "./../img/dots.png.webp";
 import CvPdf from "./../pdf/Cv.pdf";
 import GetAppIcon from "@material-ui/icons/GetApp";
+import { useSelector } from "react-redux";
 
 export default function MyBio() {
+  const myState = useSelector((state) => state.darkmode);
+
   return (
-    <div className={MybioCss.mDiv} id="myBio" data-aos="fade-up">
+    <div
+      className={MybioCss.mDiv}
+      data-aos="fade-up"
+      id={myState === true ? "darkModeEventBoxbg" : ""}
+    >
       <div className={MybioCss.dotsDiv}>
         <img src={img} alt="Me" />
       </div>
