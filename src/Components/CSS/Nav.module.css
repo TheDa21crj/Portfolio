@@ -66,6 +66,9 @@
         bottom: 5%;
         left: 20px;
     }
+    /* .darkmodeBtn svg {
+        box-shadow: 5px 5px 10px red;
+    } */
     .mDiv {
         justify-content: end;
         height: 3.6vh;
