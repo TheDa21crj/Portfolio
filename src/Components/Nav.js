@@ -104,6 +104,5 @@ export default function Nav() {
       </div>
       <div id="slider"></div>
     </div>
-    // </div>
   );
 }
