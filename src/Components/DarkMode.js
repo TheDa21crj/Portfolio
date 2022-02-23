@@ -1,9 +1,9 @@
 import React from "react";
-
+import DMCss from "./CSS/DarkMode.module.css";
 export default function DarkMode() {
   return (
     <div>
-      <div className={NavCss.darkmodeBtn} onClick={() => dispatch(darkmode())}>
+      <div className={DMCss.darkmodeBtn} onClick={() => dispatch(darkmode())}>
         {showDark ? (
           <Brightness4Icon
             fontSize="large"
