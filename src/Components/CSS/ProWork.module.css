@@ -1,8 +1,10 @@
 .mdiv {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: red;
 }
 
 .pwH3 {
@@ -16,6 +18,12 @@
 
 .imgPw:hover {
     box-shadow: 20px -20px 0px lightgreen;
+}
+
+.InfoIcon {
+    position: absolute;
+    right: 5%;
+    color: blue;
 }
 
 .mdiv p {
