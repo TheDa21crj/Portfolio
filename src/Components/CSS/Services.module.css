@@ -19,10 +19,15 @@
     border-color: rgb(179, 179, 179);
     border-radius: 5px;
     padding: 1%;
+    transition: all 0.5s;
+}
+
+.fullS:hover {
+    border-color: rgb(0, 180, 0);
 }
 
 .fullS svg {
-    color: green;
+    color: rgb(0, 180, 0);
 }
 
 .detSer {
