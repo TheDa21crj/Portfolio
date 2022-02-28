@@ -1,4 +1,4 @@
-const initialState = false;
+const initialState = true;
 
 const darkmode = (state = initialState, action) => {
     switch (action.type) {
