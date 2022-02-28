@@ -77,13 +77,13 @@ export default function Nav() {
             onClick={() => dispatch(darkmode())}
           >
             {showDark ? (
-              <Brightness4Icon
+              <Brightness7Icon
                 fontSize="large"
                 id={myState === true ? "darkSvgIcon" : ""}
                 onClick={() => setDark(false)}
               />
             ) : (
-              <Brightness7Icon fontSize="large" onClick={() => setDark(true)} />
+              <Brightness4Icon fontSize="large" onClick={() => setDark(true)} />
             )}
           </div>
         </li>
