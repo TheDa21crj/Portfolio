@@ -9,16 +9,18 @@ export default function ProWork(props) {
       <img src={props.img} alt="" className={PwCss.imgPw} />
       <h3 className={PwCss.pwH3}>{props.title}</h3>
       <p>{props.des}</p>
-      <Link to={props.link} target="_blank" className={PwCss.LinkP}>
-        Github
-      </Link>
-      {props.showLink.pathname === "undefined" ? (
-        ""
-      ) : (
-        <Link to={props.showLink} target="_blank" className={PwCss.LinkP}>
-          View
+      <div className={PwCss.LinkDiv}>
+        <Link to={props.link} target="_blank" className={PwCss.LinkP}>
+          Github
         </Link>
-      )}
+        {props.showLink.pathname === "undefined" ? (
+          ""
+        ) : (
+          <Link to={props.showLink} target="_blank" className={PwCss.LinkP}>
+            View
+          </Link>
+        )}
+      </div>
     </div>
   );
 }
