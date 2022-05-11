@@ -41,6 +41,13 @@
     color: rgb(0, 180, 0);
 }
 
+.LinkDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
 @media only screen and (max-width: 1050px) {
     .mdiv {
         margin-bottom: 30px;
