@@ -63,3 +63,10 @@
         font-size: 1.2rem;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .LinkDiv {
+        flex-direction: column;
+        width: 100%;
+    }
+}
