@@ -45,6 +45,9 @@ export default function Portfolio() {
                 link={{
                   pathname: `${value.url}`,
                 }}
+                showLink={{
+                  pathname: `${value.showLink}`,
+                }}
               />
             </div>
           );
