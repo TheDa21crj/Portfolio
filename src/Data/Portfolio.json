@@ -31,7 +31,9 @@
         "name": "Avatar Identifier",
         "description": "This a simple implementation of a third party API which is Joeschmoe.io",
         "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/624ec9b31ad509786b4cee55_avatar.png",
-        "url": "https://github.com/TheDa21crj/Joeschmoe.io.git"
+        "url": "https://github.com/TheDa21crj/Joeschmoe.io.git",
+        "showLink": "https://joeschmoe-io.pages.dev/"
+
     },
     {
         "id": "6",
