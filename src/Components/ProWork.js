@@ -4,12 +4,6 @@ import PwCss from "./CSS/ProWork.module.css";
 import InfoIcon from "@material-ui/icons/Info";
 
 export default function ProWork(props) {
-  if (props.showLink.pathname === "undefined") {
-    console.log(props.showLink.pathname);
-  } else {
-    console.log("props.showLink.pathname");
-    console.log(props.showLink.pathname);
-  }
   return (
     <div className={PwCss.mdiv} data-aos="fade">
       <img src={props.img} alt="" className={PwCss.imgPw} />
@@ -18,7 +12,6 @@ export default function ProWork(props) {
       <Link to={props.link} target="_blank" className={PwCss.LinkP}>
         Github
       </Link>
-
       {props.showLink.pathname === "undefined" ? (
         ""
       ) : (
