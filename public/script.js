@@ -14,11 +14,9 @@
         mouseY,
         windowHalfX,
         windowHalfY,
-        stats,
         geometry,
         starStuff,
         materialOptions,
-        root,
         stars;
 
     init();
@@ -27,14 +25,21 @@
     function init() {
         container = document.createElement("div");
         document.body.appendChild(container);
-        document.body.style.overflow = "hidden";
+        container.setAttribute("id", "background");
 
-        root = document.createElement("div");
-        root.setAttribute("id", "root");
+        var body = document.body,
+            html = document.documentElement;
 
-        container.appendChild(root);
+        HEIGHT = Math.max(
+            body.scrollHeight,
+            body.offsetHeight,
+            html.clientHeight,
+            html.scrollHeight,
+            html.offsetHeight
+        );
 
-        HEIGHT = window.innerHeight;
+        console.log(HEIGHT);
+
         WIDTH = window.innerWidth;
         aspectRatio = WIDTH / HEIGHT;
         fieldOfView = 75;
@@ -43,6 +48,7 @@
         mouseX = 0;
         mouseY = 0;
 
+        windowHalfX = WIDTH / 2;
         windowHalfX = WIDTH / 2;
         windowHalfY = HEIGHT / 2;
 
@@ -100,8 +106,17 @@
     }
 
     function onWindowResize() {
+        var body = document.body,
+            html = document.documentElement;
+
         var WIDTH = window.innerWidth,
-            HEIGHT = window.innerHeight;
+            HEIGHT = Math.max(
+                body.scrollHeight,
+                body.offsetHeight,
+                html.clientHeight,
+                html.scrollHeight,
+                html.offsetHeight
+            );
 
         camera.aspect = aspectRatio;
         camera.updateProjectionMatrix();
