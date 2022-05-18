@@ -1,7 +1,13 @@
 .mDiv {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(50, 50, 50);
+    /* backdrop-filter: blur(0px); */
 }
 
 .NavmDiv {
