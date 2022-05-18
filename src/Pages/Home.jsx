@@ -1,6 +1,10 @@
 import React from "react";
-// import Background from "./../Components/Background";
+import Nav from "./../Components/Nav";
 
 export default function Home() {
-  return <div>Background</div>;
+  return (
+    <div>
+      <Nav />
+    </div>
+  );
 }
