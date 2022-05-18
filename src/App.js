@@ -1,14 +1,11 @@
 import { Route, Switch } from "react-router-dom";
 import Layout from "./Pages/Layout";
-import Home from "./Pages/Home";
-import Cv from "./Pages/Cv";
-import Error from "./Pages/Error";
 
 function App() {
   return (
     <div>
       <Layout>
-        <Switch>
+        {/* <Switch>
           <Route path="/" exact>
             <Home />
           </Route>
@@ -18,7 +15,8 @@ function App() {
           <Route path="*">
             <Error />
           </Route>
-        </Switch>
+        </Switch> */}
+        hello
       </Layout>
     </div>
   );
