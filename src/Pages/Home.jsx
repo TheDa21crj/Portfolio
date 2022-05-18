@@ -1,5 +1,10 @@
 import React from "react";
+import Background from "./../Components/Background";
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Background />
+    </div>
+  );
 }
