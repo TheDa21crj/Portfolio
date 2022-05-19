@@ -166,6 +166,7 @@ code {
 .SkillDivP {
     margin: 30px 0px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -276,11 +277,28 @@ code {
 }
 
 .protfoliomDiv {
+    flex-direction: column;
     margin: 30px 0px;
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
+}
+
+.protfoliomDivCon {
+    margin: 30px 0px;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.gloabeDiv {
+    margin: 30px 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #e14c00;
 }
 
 #Services {
