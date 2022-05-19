@@ -292,12 +292,6 @@ code {
     align-items: center;
 }
 
-#Services h1 {
-    background: -webkit-linear-gradient(#eee, #e14c00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .ServisConDiv {
     display: flex;
     flex-direction: column;
