@@ -62,12 +62,19 @@ code {
 
 .NavLi {
     list-style-type: none;
-    color: #fff;
     font-size: 16px;
 }
 
+#desNav .NavLi {
+    color: #fff;
+}
+
+.scrollNav .NavLi {
+    color: #000 !important;
+}
+
 .active {
-    color: #00b400;
+    color: #00b400 !important;
     font-weight: bold;
 }
 
