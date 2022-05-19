@@ -292,6 +292,12 @@ code {
     align-items: center;
 }
 
+#Services h1 {
+    background: -webkit-linear-gradient(#eee, #e14c00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .ServisConDiv {
     display: flex;
     flex-direction: column;
@@ -319,12 +325,12 @@ code {
 }
 
 .titlepTag {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     letter-spacing: 0.2rem;
 }
 
 .StackTag {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #Contact {
