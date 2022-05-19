@@ -284,6 +284,7 @@ code {
 }
 
 #Services {
+    flex-direction: column;
     margin: 30px 0px;
     display: flex;
     width: 100%;
@@ -297,18 +298,24 @@ code {
     justify-content: center;
     align-items: center;
     width: 80%;
-    backdrop-filter: blur(2px);
-    background: white;
-    background: linear-gradient( to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
 }
 
 .ServisConDiv1 {
     margin-top: 40px;
+    backdrop-filter: blur(2px);
+    background: white;
+    background: linear-gradient( to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
     border-style: solid;
     border-width: 2px;
     border-color: #e14c00;
-    padding: 10px 25px;
+    padding: 20px 35px;
     border-radius: 10px;
+    text-align: center;
+}
+
+.ServisConDiv1 svg {
+    width: 50px;
+    height: 50px;
 }
 
 #Contact {
