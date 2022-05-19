@@ -38,8 +38,6 @@
             html.offsetHeight
         );
 
-        console.log(HEIGHT);
-
         WIDTH = window.innerWidth;
         aspectRatio = WIDTH / HEIGHT;
         fieldOfView = 75;

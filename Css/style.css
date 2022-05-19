@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#root {
+    background-color: transparent;
+    width: 100%;
+    color: red;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
