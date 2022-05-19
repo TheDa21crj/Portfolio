@@ -134,17 +134,19 @@ code {
 }
 
 .imgLogoSkills {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
 }
 
 .SkillDivP {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .SkillDivC {
+    padding: 20px 0px;
     border-radius: 10px;
     width: 80%;
     display: flex;
