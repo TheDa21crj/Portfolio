@@ -291,6 +291,26 @@ code {
     align-items: center;
 }
 
+.ServisConDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    backdrop-filter: blur(2px);
+    background: white;
+    background: linear-gradient( to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+}
+
+.ServisConDiv1 {
+    margin-top: 40px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e14c00;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
 #Contact {
     margin: 30px 0px;
     display: flex;
