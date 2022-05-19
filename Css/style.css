@@ -437,13 +437,13 @@ code {
 }
 
 #Footer {
-    /* position: relative; */
-    bottom: 0px;
+    position: absolute;
+    /* left: 0px; */
+    /* bottom: 0px; */
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
     background-color: #fff;
     color: #000;
-    /* z-index: 3; */
 }
