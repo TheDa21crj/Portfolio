@@ -93,8 +93,6 @@ code {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: red; */
-    /* backdrop-filter: blur(1px); */
 }
 
 #overlay h1 {
