@@ -155,11 +155,19 @@ code {
     background-color: #fff;
 }
 
-.progressChildDiv {
+.progressChildDiv,
+.progressChildDiv2 {
     border-radius: 10px;
-    width: 98%;
     height: 100%;
     background-color: #00b400;
+}
+
+.progressChildDiv {
+    width: 98%;
+}
+
+.progressChildDiv2 {
+    width: 97%;
 }
 
 .con {
