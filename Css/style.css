@@ -145,6 +145,7 @@ code {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    transition: all 0.3s;
 }
 
 .progressParentDiv {
@@ -159,4 +160,26 @@ code {
     width: 98%;
     height: 100%;
     background-color: #00b400;
+}
+
+.con {
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 10px;
+    position: absolute;
+    right: -10%;
+    padding: 2px 5px;
+    backdrop-filter: blur(2px);
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    font-size: 0.8rem;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.skilssDiv:hover>.con {
+    opacity: 1;
+    visibility: visible;
 }
