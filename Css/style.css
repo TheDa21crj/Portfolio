@@ -1,11 +1,11 @@
 @font-face {
-    font-family: ManropeRegular;
-    src: url(./Manrope/static/Manrope-Regular.ttf);
+    font-family: NunitoRegular;
+    src: url(./Nunito/NunitoSans-Regular.ttf);
 }
 
 @font-face {
-    font-family: ManropeExtraBold;
-    src: url(./Manrope/static/Manrope-ExtraBold.ttf);
+    font-family: NunitoExtraBold;
+    src: url(./Nunito/NunitoSans-ExtraBold.ttf);
 }
 
 * {
@@ -139,7 +139,7 @@ code {
 
 #leftDivmyBio,
 #rightDivmyBio {
-    font-family: "Nunito", sans-serif;
+    /* font-family: "Nunito", sans-serif; */
     text-align: justify;
     line-height: 1.5;
     width: 45%;
@@ -165,8 +165,12 @@ code {
 }
 
 #rightDivmyBio h1 {
-    font-family: ManropeExtraBold;
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.MybioCssmBp {
+    margin-bottom: 20px;
 }
 
 .imgLogoSkills {
@@ -175,11 +179,15 @@ code {
 }
 
 .SkillDivP {
-    margin: 30px 0px;
+    margin: 50px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.SkillDivP h1 {
+    margin-bottom: 30px;
 }
 
 .SkillDivC {
@@ -256,7 +264,7 @@ code {
 }
 
 .Download {
-    margin-top: 30px;
+    margin: 30px 0px;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -359,8 +367,46 @@ code {
 #Contact {
     margin: 30px 0px;
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
+    align-items: center;
+}
+
+.ContactDiv {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ContactLeftDiv {
+    width: 40%;
+    background-color: red;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContactDiv1 {
+    display: flex;
+    align-items: center;
+}
+
+.ContactDiv1 p {
+    margin-left: 10px;
+}
+
+#Conmt {
+    margin-top: 20px;
+}
+
+.ContactRightDiv {
+    width: 50%;
+    background-color: red;
+    justify-content: center;
+    display: flex;
     align-items: center;
 }
 
