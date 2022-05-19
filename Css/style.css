@@ -132,10 +132,11 @@ code {
     align-items: center;
     backdrop-filter: blur(2px);
     background: white;
-    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
+    /* background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)); */
+    background: linear-gradient( to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
     border-style: solid;
-    border-width: 0px 0px 1px 0px;
-    border-color: rgb(120, 120, 120);
+    border-width: 0px 0px 0px 0px;
+    /* border-color: rgb(120, 120, 120); */
     padding: 20px;
     border-radius: 10px;
 }
@@ -171,7 +172,7 @@ code {
     align-items: center;
     backdrop-filter: blur(2px);
     background: white;
-    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5));
 }
 
 .SkillDivMDiv {
@@ -201,7 +202,7 @@ code {
 .progressChildDiv2 {
     border-radius: 10px;
     height: 100%;
-    background-color: #00b400;
+    background-color: #e14c00;
 }
 
 .progressChildDiv {
@@ -254,14 +255,15 @@ code {
     padding: 10px 25px;
     border-style: solid;
     border-width: 1px;
-    border-color: #00b400;
-    background-color: #00b400;
+    border-color: #e14c00;
+    background-color: #e14c00;
     text-decoration: none;
     color: inherit;
     transition: all 0.3s;
 }
 
 .DownloadBTN:hover {
-    box-shadow: 10px 10px 50px lightgrey;
-    color: #000;
+    background-color: transparent;
+    /* box-shadow: 10px 10px 50px lightgrey; */
+    color: #e14c00;
 }
