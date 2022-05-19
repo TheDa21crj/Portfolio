@@ -134,13 +134,37 @@ code {
 }
 
 .imgLogoSkills {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
+}
+
+.SkillDivP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SkillDivC {
+    border-radius: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    background: white;
+    background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
+}
+
+.SkillDivMDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .skilssDiv {
-    position: relative;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 80%;
     display: flex;
     justify-content: space-evenly;
