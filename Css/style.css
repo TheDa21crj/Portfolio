@@ -282,3 +282,31 @@ code {
     justify-content: center;
     align-items: center;
 }
+
+#Services {
+    margin: 30px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contact {
+    margin: 30px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#Footer {
+    /* position: relative; */
+    bottom: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    /* z-index: 3; */
+}
