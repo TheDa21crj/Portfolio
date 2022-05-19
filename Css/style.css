@@ -318,6 +318,15 @@ code {
     height: 50px;
 }
 
+.titlepTag {
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+}
+
+.StackTag {
+    font-size: 1.5rem;
+}
+
 #Contact {
     margin: 30px 0px;
     display: flex;
