@@ -12,9 +12,6 @@ function App() {
           <Route path="/" exact>
             <Home />
           </Route>
-          <Route path="/cv" exact>
-            <Cv />
-          </Route>
           <Route path="*">
             <Error />
           </Route>
