@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import MybioCss from "./CSS/MyBio.module.css";
 import "./DarkModeCss/MyBio.css";
 import img0 from "./../img/me.jpg";
