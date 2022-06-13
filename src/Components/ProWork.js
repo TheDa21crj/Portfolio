@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import PwCss from "./CSS/ProWork.module.css";
-import InfoIcon from "@material-ui/icons/Info";
 
 export default function ProWork(props) {
   return (
