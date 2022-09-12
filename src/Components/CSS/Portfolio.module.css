@@ -14,8 +14,6 @@
   gap: 30px;
   justify-content: space-evenly;
   padding: 0px 20px;
-  /* grid-template-columns: repeat(auto-fit, minmax(500px, auto)); */
-  /* row-gap: 30px; */
 }
 
 .PinpDiv {
@@ -57,15 +55,6 @@
 #searchInp:focus {
   border-color: transparent transparent rgb(0 180 0) transparent;
   transition: all 0.3s;
-}
-
-@media only screen and (max-width: 1050px) {
-  /* .pDiv {
-    flex-direction: column;
-  }
-  .pDiv {
-    grid-template-columns: repeat(auto-fit, minmax(100%, auto));
-  } */
 }
 
 @media only screen and (max-width: 800px) {
