@@ -22,13 +22,13 @@ export default function MyBio() {
         <h1 className={MybioCss.myBioH1}>My Bio</h1>
         <p className={MybioCss.mBp}>
           Hi, I'm <b>Rishav Raj Singh</b>, a student at
-          <b> Kalinga Institute of Industrial Technology</b> Deemed to Be
-          University (2020-2024) who is currently studying in third semester in
-          <b> Electronics and Computer Science Engineering</b>. I am a
-          <b> workaholic</b>, <b>efficient</b> and a <b>trustworthy</b> person
-          who excels in the field of Web Development. I possess excellent
-          <b> interpersonal</b> skills and projects. I am well accommodated to
-          the team environments.
+          <b> Kalinga Institute of Industrial Technology </b>
+          Deemed to Be University (2020-2024) who is currently studying in the
+          fifth semester in <b>Electronics and Computer Science Engineering</b>.
+          I am a<b> workaholic</b>, <b> efficient</b>, and <b>trustworthy </b>
+          person who excels in the field of Web Development. I possess excellent
+          <b> interpersonal</b> skills and projects. I am well accommodated in
+          team environments.
         </p>
         <div className={MybioCss.barDiv}>
           <p>HTML</p>
