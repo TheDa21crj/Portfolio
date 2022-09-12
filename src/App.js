@@ -1,22 +1,17 @@
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import React from "react";
 import Layout from "./Pages/Layout";
 import Home from "./Pages/Home";
 import Error from "./Pages/Error";
 
 function App() {
   return (
-    <div>
-      <Layout>
-        <Switch>
-          <Route path="/" exact>
-            <Home />
-          </Route>
-          <Route path="*">
-            <Error />
-          </Route>
-        </Switch>
-      </Layout>
-    </div>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
+    </Layout>
   );
 }
 
