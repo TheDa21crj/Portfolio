@@ -16,18 +16,7 @@ export default function Nav() {
     }
   };
 
-  // const changeNav = () => {
-  //   if (
-  //     window.scrollY >= 598.6666870117188 &&
-  //     window.scrollY <= 2300.666748046875
-  //   ) {
-  //     // console.log(document.getElementById("ulS"));
-  //     // document.getElementById("ulS").forEach;
-  //   }
-  // };
-
   window.addEventListener("scroll", changeBg);
-  // window.addEventListener("scroll", changeNav);
 
   return (
     <div className={NavCss.mDiv} id={nav ? "active" : "hello"}>
