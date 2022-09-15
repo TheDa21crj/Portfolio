@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import PwCss from "./CSS/ProWork.module.css";
 
 export default function ProWork(props) {
-  console.log(props.showLink.length);
+  console.log(props.showLink);
 
   return (
     <div className={PwCss.mdiv} data-aos="fade">
@@ -14,12 +14,12 @@ export default function ProWork(props) {
         <a href={props.link} target="_blank" className={PwCss.LinkP}>
           Github
         </a>
-        {props.showLink === "undefined" ? (
-          ""
-        ) : (
+        {typeof props.showLink != "undefined" ? (
           <a href={props.showLink} target="_blank" className={PwCss.LinkP}>
             View
           </a>
+        ) : (
+          ""
         )}
       </div>
     </div>
