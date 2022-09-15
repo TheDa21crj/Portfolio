@@ -5,7 +5,9 @@ import img0 from "./../img/me.jpg";
 import img from "./../img/dots.png.webp";
 import CvPdf from "./../pdf/Cv.pdf";
 import GetAppIcon from "@material-ui/icons/GetApp";
+import Skill from "./../Data/Skills.json";
 import { useSelector } from "react-redux";
+import { BallotRounded } from "@material-ui/icons";
 
 export default function MyBio() {
   const myState = useSelector((state) => state.darkmode);
@@ -31,54 +33,23 @@ export default function MyBio() {
           <b> interpersonal</b> skills and projects. I am well accommodated in
           team environments.
         </p>
-        <div className={MybioCss.barDiv}>
-          <p>HTML</p>
-          <div className={MybioCss.fullL}>
-            <div className={MybioCss.greenBar} id={MybioCss.gb1}></div>
-            <div
-              className={MybioCss.gbDivV}
-              id={myState === true ? "darkgbDivV0" : ""}
-            >
-              92%
+        {Skill.map((value, key) => {
+          return (
+            <div className={MybioCss.barDiv} key={key}>
+              <p>{value.name}</p>
+              <div className={MybioCss.fullL}>
+                <div className={MybioCss.greenBar} id={MybioCss.gb1}></div>
+                <div
+                  className={MybioCss.gbDivV}
+                  id={myState === true ? "darkgbDivV0" : ""}
+                >
+                  {value.pre}%
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div className={MybioCss.barDiv}>
-          <p>CSS</p>
-          <div className={MybioCss.fullL}>
-            <div className={MybioCss.greenBar} id={MybioCss.gb2}></div>
-            <div
-              className={MybioCss.gbDivV}
-              id={myState === true ? "darkgbDivV1" : ""}
-            >
-              90%
-            </div>
-          </div>
-        </div>
-        <div className={MybioCss.barDiv}>
-          <p>React</p>
-          <div className={MybioCss.fullL}>
-            <div className={MybioCss.greenBar} id={MybioCss.gb3}></div>
-            <div
-              className={MybioCss.gbDivV}
-              id={myState === true ? "darkgbDivV2" : ""}
-            >
-              93%
-            </div>
-          </div>
-        </div>
-        <div className={MybioCss.barDiv}>
-          <p>JavaScript</p>
-          <div className={MybioCss.fullL}>
-            <div className={MybioCss.greenBar} id={MybioCss.gb4}></div>
-            <div
-              className={MybioCss.gbDivV}
-              id={myState === true ? "darkgbDivV3" : ""}
-            >
-              91%
-            </div>
-          </div>
-        </div>
+          );
+        })}
+
         <div className={MybioCss.myBioBtnDiv}>
           <a href={CvPdf} download className={MybioCss.CvLink}>
             <p className={MybioCss.downloadtext}>Download CV</p>
