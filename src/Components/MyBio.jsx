@@ -94,6 +94,18 @@ export default function MyBio() {
             View CV
           </a>
         </div>
+        <div className={MybioCss.barDiv}>
+          <p>CSS</p>
+          <div className={MybioCss.fullL}>
+            <div className={MybioCss.greenBar} id={MybioCss.gb2}></div>
+            <div
+              className={MybioCss.gbDivV}
+              id={myState === true ? "darkgbDivV1" : ""}
+            >
+              90%
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
