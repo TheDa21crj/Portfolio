@@ -3,21 +3,23 @@ import { Link } from "react-router-dom";
 import PwCss from "./CSS/ProWork.module.css";
 
 export default function ProWork(props) {
+  console.log(props.showLink.length);
+
   return (
     <div className={PwCss.mdiv} data-aos="fade">
       <img src={props.img} alt="" className={PwCss.imgPw} />
       <h3 className={PwCss.pwH3}>{props.title}</h3>
       <p>{props.des}</p>
       <div className={PwCss.LinkDiv}>
-        <Link to={props.link} target="_blank" className={PwCss.LinkP}>
+        <a href={props.link} target="_blank" className={PwCss.LinkP}>
           Github
-        </Link>
-        {props.showLink.pathname === "undefined" ? (
+        </a>
+        {props.showLink === "undefined" ? (
           ""
         ) : (
-          <Link to={props.showLink} target="_blank" className={PwCss.LinkP}>
+          <a href={props.showLink} target="_blank" className={PwCss.LinkP}>
             View
-          </Link>
+          </a>
         )}
       </div>
     </div>
