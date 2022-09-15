@@ -1,0 +1,40 @@
+[{
+    "id": "1",
+    "name": "HTML",
+    "pre": "92"
+},
+{
+    "id": "2",
+    "name": "CSS",
+    "pre": "96"
+},
+{
+    "id": "3",
+    "name": "React.js",
+    "pre": "97"
+},
+{
+    "id": "4",
+    "name": "JavaScript",
+    "pre": "96"
+},
+{
+    "id": "5",
+    "name": "Python",
+    "pre": "95"
+},
+{
+    "id": "6",
+    "name": "",
+    "description": "This is a custom video player made from scratch using Reactjs, matrialUI - for the icons.",
+    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6209edcf4ae14d2ff6731b8b_CustomVid.png",
+    "url": "https://github.com/TheDa21crj/CustomVideoPlayer.git"
+},
+{
+    "id": "7",
+    "name": "Dance Website",
+    "description": "This a dance website with Amination on Scroll (AOS) effect as well as fully functional Backend",
+    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6209edcf5d44938fa2d914ec_dance1.png",
+    "url": "https://github.com/TheDa21crj/Dance-site.git"
+}
+]
