@@ -44,9 +44,9 @@
     },
     {
         "id": "7",
-        "name": "Dance Website",
-        "description": "This a dance website with Amination on Scroll (AOS) effect as well as fully functional Backend",
-        "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6209edcf5d44938fa2d914ec_dance1.png",
-        "url": "https://github.com/TheDa21crj/Dance-site.git"
+        "name": "Image Caption",
+        "description": "This is a webpage where you can upload a image and the system will automatically generate a caption for the Image",
+        "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6322a65333dd78769485cdfa_ss.jpg",
+        "url": "https://github.com/TheDa21crj/flask.git"
     }
 ]
