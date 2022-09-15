@@ -22,13 +22,6 @@
         "showLink": "https://memorygame-8av.pages.dev/"
     },
     {
-        "id": "4",
-        "name": "Trading",
-        "description": "The frontend and the backend is developed using Nodejs which includes MongoDB as the Database.",
-        "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/620f3cdf3032dd1f56f98f65_1.png",
-        "url": "https://github.com/TheDa21crj/Trading.git"
-    },
-    {
         "id": "5",
         "name": "Avatar Identifier",
         "description": "This a simple implementation of a third party API which is Joeschmoe.io",
