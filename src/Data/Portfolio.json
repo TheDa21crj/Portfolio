@@ -38,16 +38,9 @@
     },
     {
         "id": "6",
-        "name": "MERN Stack",
+        "name": "FeedBack",
         "description": "A website that consists of full functional Frontend and Backend with the use of jwt joken",
         "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6209ede6804e1a0c71460f91_mern.png",
         "url": "https://github.com/TheDa21crj/MERN_Stack.Basic1.git"
-    },
-    {
-        "id": "7",
-        "name": "Custom Video Player",
-        "description": "This is a custom video player made from scratch using Reactjs, matrialUI - for the icons.",
-        "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6209edcf4ae14d2ff6731b8b_CustomVid.png",
-        "url": "https://github.com/TheDa21crj/CustomVideoPlayer.git"
     }
 ]
