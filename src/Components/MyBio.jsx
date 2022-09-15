@@ -26,7 +26,8 @@ export default function MyBio() {
           Deemed to Be University (2020-2024) who is currently studying in the
           fifth semester in <b>Electronics and Computer Science Engineering</b>.
           I am a<b> workaholic</b>, <b> efficient</b>, and <b>trustworthy </b>
-          person who excels in the field of Web Development. I possess excellent
+          person who excels in the field of Web Development and a Data Analyst.
+          I possess excellent
           <b> interpersonal</b> skills and projects. I am well accommodated in
           team environments.
         </p>
