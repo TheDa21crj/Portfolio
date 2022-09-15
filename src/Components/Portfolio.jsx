@@ -42,12 +42,8 @@ export default function Portfolio() {
                 img={value.img}
                 title={value.name}
                 des={value.description}
-                link={{
-                  pathname: `${value.url}`,
-                }}
-                showLink={{
-                  pathname: `${value.showLink}`,
-                }}
+                link={value.url}
+                showLink={value.showLink}
               />
             </div>
           );
