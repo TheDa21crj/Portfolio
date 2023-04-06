@@ -1,104 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
 .mDiv {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
+    background-color: #0f0f0f;
+    color: #fff;
     display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
     align-items: center;
-    z-index: 3;
-    width: 100%;
-    min-width: 100%;
-    transition: all 0.3s;
+    justify-content: space-between;
+    padding: 20px 100px;
+    border-style: solid;
+    border-width: 0px 0px 1.5px 0px;
+    border-color: #fd2155;
+    box-shadow: 0px 4px 20px -6px rgba(255, 255, 255, 0.2);
 }
 
-.ul {
-    list-style-type: none;
+.pTagHead {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #fd2155;
 }
 
-.li {
-    display: inline;
-}
-
-.linkNav {
-    padding: 10px 15px;
-    text-decoration: none;
-    color: rgb(175, 175, 175);
-    transition: all 0.3s;
+.hamburger {
     cursor: pointer;
+    background-color: transparent;
+    transition: all 0.3s;
+    height: 28px;
+    /* background-color: #fff; */
 }
 
-.linkNav:hover {
-    color: #96bb7c;
-}
-
-.burger {
-    float: right;
-    width: 40px;
-    display: none;
-}
-
-.burger div {
-    background-color: black;
+.bur1,
+.bur2,
+.bur3 {
+    width: 50px;
     height: 2px;
-    width: 100%;
-    margin: 0px 0px 7px 0px;
+    background-color: #fd2155;
 }
 
-.NrmDiv {
-    display: none;
-}
-
-.ulDark {
-    cursor: pointer;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-}
-
-.liDark {
-    list-style-type: none;
-}
-
-@media only screen and (max-width: 800px) {
-    .darkmodeBtn {
-        cursor: pointer;
-        position: fixed;
-        bottom: 5%;
-        left: 20px;
-    }
-    .mDiv {
-        justify-content: end;
-        height: 3.6vh;
-    }
-    .ul {
-        display: none;
-    }
-    .burger {
-        display: block;
-        margin-right: 30px;
-    }
-    .burger div {
-        margin: 0px 0px 7px 0px;
-    }
-    .NrmDiv {
-        display: block;
-        position: absolute;
-        top: 48px;
-        right: 0px;
-        padding: 5% 1% 1% 0px;
-        width: 100%;
-        background-color: white;
-        border-style: solid;
-        border-width: 0px 0px 1px 0px;
-        border-color: grey;
-    }
-    .NrmDiv ul {
-        list-style: none;
-        font-family: "Nunito", sans-serif;
-    }
-    .NrmDiv ul li {
-        margin-bottom: 10%;
-    }
+.bur1,
+.bur2 {
+    margin-bottom: 22%;
 }

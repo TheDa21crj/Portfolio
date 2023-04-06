@@ -1,0 +1,74 @@
+.mDiv {
+    position: relative;
+}
+
+.GreyText {
+    position: absolute;
+    top: -86px;
+    left: -25px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 180px;
+    line-height: 218px;
+    color: #353535;
+    z-index: 0;
+}
+
+.GreyText2 {
+    position: absolute;
+    bottom: -82px;
+    right: -188px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 180px;
+    line-height: 218px;
+    color: #353535;
+    z-index: 0;
+}
+
+.mCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(21, 21, 21, 0.55);
+    border: 1px solid rgba(8, 253, 216, 0.5);
+    backdrop-filter: blur(17.5px);
+    border-radius: 32px;
+    padding: 42px 87px;
+    z-index: 1;
+}
+
+.titleService {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 53px;
+    color: #08fdd8;
+}
+
+.imgSrc {
+    width: 250px;
+    height: 250px;
+}
+
+.serviceName {
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}

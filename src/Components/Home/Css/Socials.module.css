@@ -1,0 +1,13 @@
+.mDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+    margin-top: 14px;
+    background-color: transparent;
+}
+
+.LinkedIn,
+.Twitter {
+    margin-right: 39px;
+}

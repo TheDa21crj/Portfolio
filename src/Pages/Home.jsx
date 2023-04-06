@@ -1,31 +1,18 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import "./CSS/Home.css";
-import Nav from "../Components/Nav";
-import Header from "../Components/Header";
-import MyBio from "../Components/MyBio";
-import Portfolio from "../Components/Portfolio";
-import Services from "../Components/Services";
-import ContactUs from "../Components/ContactUs";
-import Footer from "../Components/Footer";
-import { useSelector } from "react-redux";
+import React from "react";
+import Header from "./../Components/Home/Header";
+import Bio from "./../Components/Home/Bio";
+import Portfolio from "./../Components/Home/Portfolio";
+import Services from "./../Components/Home/Services";
+import Contact from "./../Components/Home/Contact";
 
 export default function Home() {
-  const myState = useSelector((state) => state.darkmode);
-
-  useEffect(() => {
-    Aos.init({ offset: 180, duration: 1000 });
-  }, []);
   return (
-    <div id={myState === true ? "darkHome" : ""}>
-      <Nav />
+    <div>
       <Header />
-      <MyBio />
+      <Bio />
       <Portfolio />
       <Services />
-      <ContactUs />
-      <Footer />
+      <Contact />
     </div>
   );
 }
