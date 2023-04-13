@@ -1,116 +1,118 @@
 .mDiv {
-    position: relative;
-    background: rgba(38, 38, 38, 0.33);
-    box-shadow: 0px -5px 20px rgba(134, 134, 134, 0.25);
-    backdrop-filter: blur(11.5px);
-    z-index: 1;
+  position: relative;
+  background: rgba(38, 38, 38, 0.33);
+  box-shadow: 0px -5px 20px rgba(134, 134, 134, 0.25);
+  backdrop-filter: blur(11.5px);
+  z-index: 1;
 }
 
 .mConDiv {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 53px 0px 73px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 53px 0px 73px;
 }
 
 .ContactMe {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 53px;
-    line-height: 64px;
-    color: #fd2155;
-    margin-bottom: 50px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 53px;
+  line-height: 64px;
+  color: #fd2155;
+  margin-bottom: 50px;
 }
 
 .mapParent {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .MapImg {
-    width: 547px;
-    height: 547px;
+  width: 547px;
+  height: 547px;
 }
 
 .contactMapDivChild {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .contactDivPTag {
-    display: flex;
-    align-items: center;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
 }
 
 .contactIcon {
-    color: #08fdd8;
-    margin-right: 26px;
+  color: #08fdd8;
+  margin-right: 26px;
 }
 
 .TeaxtareaTag {
-    font-family: "Inter", sans-serif;
-    outline: none;
-    resize: none;
-    width: 100%;
-    height: 100px;
-    background: rgba(32, 32, 32, 0.52);
-    border: 1px solid rgba(8, 253, 216, 0.14);
-    color: #fff;
-    padding: 15px;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    margin-bottom: 15px;
+  font-family: "Inter", sans-serif;
+  outline: none;
+  resize: none;
+  width: 100%;
+  height: 100px;
+  background: rgba(32, 32, 32, 0.52);
+  border: 1px solid rgba(8, 253, 216, 0.14);
+  color: #fff;
+  padding: 15px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 15px;
 }
 
 .TeaxtareaTag::placeholder {
-    font-family: "Inter", sans-serif;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 17px;
-    color: #08fdd8;
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #08fdd8;
 }
 
 .Send {
-    width: 63px;
-    height: 31px;
-    background: #25FFDE;
-    border-radius: 12px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-    cursor: pointer;
+  width: 63px;
+  height: 31px;
+  background: #25ffde;
+  border-radius: 12px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  cursor: pointer;
 }
 
 .mDivBottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14px;
 }
 
 .line {
-    width: 54.16%;
-    height: 2px;
-    background: #08fdd8;
-    margin-bottom: 19px;
+  width: 54.16%;
+  height: 2px;
+  background: #08fdd8;
+  margin-bottom: 19px;
 }
 
 .lastLine {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 27px;
-    margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 20px;
 }
