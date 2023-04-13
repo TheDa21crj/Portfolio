@@ -41,8 +41,13 @@ export default function Contact() {
                     </div>
                     {/* email */}
                     <div className={CCss.contactMapDivChild}>
-                      <img src={mail} alt="" className={CCss.contactIcon} />
-                      <p className={CCss.contactDivPTag}>{value.email}</p>
+                      <img src={mail} alt="" className={CCss.contactIcon} />{" "}
+                      <a
+                        href="mailto:rishavrajcrj@gmail.com"
+                        className={CCss.contactDivPTag}
+                      >
+                        {value.email}
+                      </a>
                     </div>
                   </div>
                 );
