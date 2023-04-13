@@ -10,7 +10,9 @@ export default function Services() {
         <div className={SCss.Box}>
           <p className={SCss.titleService}>My Services</p>
           <img src={img} alt="" className={SCss.imgSrc} />
-          <p className={SCss.serviceName}>UI Designer | Frontend</p>
+          <p className={SCss.serviceName}>
+            Full Stack Developer | Software Developer
+          </p>
         </div>
       </div>
       <p className={SCss.GreyText2}>RESEARCH</p>
