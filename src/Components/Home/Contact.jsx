@@ -34,7 +34,6 @@ export default function Contact() {
                       />
                       <a
                         href="tel:+919939197376"
-                        // class="LinkStyle"
                         className={CCss.contactDivPTag}
                       >
                         {value.phoneNumber}
