@@ -32,7 +32,13 @@ export default function Contact() {
                         alt=""
                         className={CCss.contactIcon}
                       />
-                      <p className={CCss.contactDivPTag}>{value.phoneNumber}</p>
+                      <a
+                        href="tel:+919939197376"
+                        // class="LinkStyle"
+                        className={CCss.contactDivPTag}
+                      >
+                        {value.phoneNumber}
+                      </a>
                     </div>
                     {/* email */}
                     <div className={CCss.contactMapDivChild}>
