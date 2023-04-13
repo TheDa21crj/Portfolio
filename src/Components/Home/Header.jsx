@@ -10,11 +10,13 @@ export default function Header() {
         Hi,
         <br />
         I'm
-        <span> Ayan </span>Paul
+        <span> Rishav </span>Singh
         <br />
         Web Developer
       </p>
-      <p className={HCss.skiilsPTag}>UI/UX Designer | Frontend Developer </p>
+      <p className={HCss.skiilsPTag}>
+        Full Stack Developer | Software Developer
+      </p>
 
       <img src={ImgReact} alt="Img_React" className={HCss.ImgReact} />
       <p className={HCss.GreyText}>DEVELOP</p>
