@@ -32,20 +32,14 @@ export default function Contact() {
                         alt=""
                         className={CCss.contactIcon}
                       />
-                      <a
-                        href="tel:+919939197376"
-                        className={CCss.contactDivPTag}
-                      >
+                      <a href={value.tel} className={CCss.contactDivPTag}>
                         {value.phoneNumber}
                       </a>
                     </div>
                     {/* email */}
                     <div className={CCss.contactMapDivChild}>
                       <img src={mail} alt="" className={CCss.contactIcon} />{" "}
-                      <a
-                        href="mailto:rishavrajcrj@gmail.com"
-                        className={CCss.contactDivPTag}
-                      >
+                      <a href={value.mailto} className={CCss.contactDivPTag}>
                         {value.email}
                       </a>
                     </div>
@@ -71,7 +65,7 @@ export default function Contact() {
       <Socials />
       <div className={CCss.mDivBottom}>
         <div className={CCss.line}></div>
-        <p className={CCss.lastLine}>Made with 💖 by Ayan Paul</p>
+        <p className={CCss.lastLine}>Made with 💖 by Rishav Singh</p>
       </div>
     </div>
   );
