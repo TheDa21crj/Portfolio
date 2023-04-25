@@ -1,6 +1,10 @@
 import React from "react";
-import img from "./../../assets/services.png";
+
+// css
 import SCss from "./Css/Services.module.css";
+
+// img
+import img from "./../../assets/services.png";
 
 export default function Services() {
   return (
