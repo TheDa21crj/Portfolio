@@ -23,11 +23,6 @@ export default function Portfolio() {
     }
   }, [show]);
 
-  useEffect(() => {
-    console.log(show);
-    console.log(map);
-  }, [map]);
-
   return (
     <div className={PCSS.mDiv}>
       <p className={PCSS.GreyText}>DESIGN</p>
