@@ -1,9 +1,11 @@
 import React from "react";
-import Header from "./../Components/Home/Header";
+
+// Components
 import Bio from "./../Components/Home/Bio";
-import Portfolio from "./../Components/Home/Portfolio";
-import Services from "./../Components/Home/Services";
+import Header from "./../Components/Home/Header";
 import Contact from "./../Components/Home/Contact";
+import Services from "./../Components/Home/Services";
+import Portfolio from "./../Components/Home/Portfolio";
 
 export default function Home() {
   return (
