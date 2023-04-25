@@ -1,6 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React from "react";
+
+// Layout
 import Layout from "./Pages/Layout";
+
+// Home
 import Home from "./Pages/Home";
 import Error from "./Pages/Error";
 
