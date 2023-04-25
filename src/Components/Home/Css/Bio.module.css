@@ -73,6 +73,6 @@
 
 .downloadtext:hover,
 .ReadMore:hover {
-  box-shadow: inset -10.5em 0 0 0 #08fdd8, inset 10.5em 0 0 0 #08fdd8;
-  color: #000;
+  box-shadow: inset -10.5em 0 0 0 #012b24, inset 10.5em 0 0 0 #012b24;
+  /* color: #000; */
 }
