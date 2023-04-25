@@ -10,7 +10,7 @@ import App from "./../../Data/App.json";
 import Web from "./../../Data/Web.json";
 
 export default function Portfolio() {
-  const [show, set] = useState("Graphic");
+  const [show, set] = useState("Web");
   const [map, setMap] = useState(Graphic);
 
   useEffect(() => {
@@ -36,18 +36,18 @@ export default function Portfolio() {
             GRAPHIC
           </div>
           <div
-            className={PCSS.APP}
-            id={show === "App" ? "selected" : "NotSelected"}
-            onClick={() => set("App")}
-          >
-            APP
-          </div>
-          <div
             className={PCSS.WEB}
             id={show === "Web" ? "selected" : "NotSelected"}
             onClick={() => set("Web")}
           >
             WEB
+          </div>
+          <div
+            className={PCSS.APP}
+            id={show === "App" ? "selected" : "NotSelected"}
+            onClick={() => set("App")}
+          >
+            APP
           </div>
         </div>
       </div>
