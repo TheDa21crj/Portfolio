@@ -12,11 +12,11 @@ export default function Bio() {
         together with amazing people from companies around the globe. It's only
         a drop in the ocean compared to the entire list.
       </p>
-      <div>
+      <div className={BCss.BtnPDiv}>
         <button className={BCss.ReadMore}>
           <p>Read More</p>
         </button>
-        <p className={BCss.downloadtext}>Download CV</p>
+        <div className={BCss.downloadtext}>Download CV</div>
       </div>
     </div>
   );
