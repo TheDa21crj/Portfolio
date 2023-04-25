@@ -4,8 +4,6 @@ import React from "react";
 import SoCss from "./Css/Socials.module.css";
 
 // icons
-import Github from "./../../assets/Github.png";
-
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
