@@ -3,6 +3,8 @@
     "id": "0",
     "name": "Rishav Singh",
     "phoneNumber": "+91 993-919-7376",
-    "email": "rishavrajcrj@gmail.com"
+    "tel": "tel:+919939197376",
+    "email": "rishavrajcrj@gmail.com",
+    "mailto": "mailto:rishavrajcrj@gmail.com"
   }
 ]
