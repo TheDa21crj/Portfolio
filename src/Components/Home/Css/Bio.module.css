@@ -48,6 +48,7 @@
   line-height: 29px;
   background-color: transparent;
   color: #08fdd8;
+  transition: all 0.7s;
 }
 
 .downloadtext {
@@ -67,4 +68,11 @@
   line-height: 29px;
   background-color: transparent;
   color: #08fdd8;
+  transition: all 0.7s;
+}
+
+.downloadtext:hover,
+.ReadMore:hover {
+  box-shadow: inset -10.5em 0 0 0 #08fdd8, inset 10.5em 0 0 0 #08fdd8;
+  color: #000;
 }
