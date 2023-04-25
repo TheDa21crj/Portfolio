@@ -1,4 +1,6 @@
 import React from "react";
+
+// css
 import BCss from "./Css/Bio.module.css";
 
 export default function Bio() {
