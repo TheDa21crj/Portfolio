@@ -74,9 +74,7 @@
 }
 
 .mapmDivTag:hover > .mapImgTag {
-  /* object-fit: scale-down; */
   transform: translateX(0%) translateY(0%) scale(0.9);
-  /* object-fit: contain; */
 }
 
 .GreyText {
