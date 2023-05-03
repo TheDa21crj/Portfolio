@@ -56,12 +56,14 @@ export default function Portfolio() {
           <div className={PCSS.mapParentDiv}>
             {map.map((value, key) => {
               return (
-                <img
-                  key={key}
-                  src={value.img}
-                  alt=""
-                  className={PCSS.mapImgTag}
-                />
+                <div className={PCSS.mapmDivTag}>
+                  <img
+                    key={key}
+                    src={value.img}
+                    alt=""
+                    className={PCSS.mapImgTag}
+                  />
+                </div>
               );
             })}
           </div>
