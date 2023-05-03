@@ -6,7 +6,7 @@ import PCSS from "./Css/Portfolio.module.css";
 
 // Data
 import Graphic from "./../../Data/Graphic.json";
-import Ml from "./../../Data/Ml.json";
+import Others from "./../../Data/Ml.json";
 import Web from "./../../Data/Web.json";
 
 export default function Portfolio() {
@@ -16,8 +16,8 @@ export default function Portfolio() {
   useEffect(() => {
     if (show === "Graphic") {
       setMap(Graphic);
-    } else if (show === "Ml") {
-      setMap(Ml);
+    } else if (show === "Others") {
+      setMap(Others);
     } else if (show === "Web") {
       setMap(Web);
     }
@@ -44,8 +44,8 @@ export default function Portfolio() {
           </div>
           <div
             className={PCSS.APP}
-            id={show === "Ml" ? "selected" : "NotSelected"}
-            onClick={() => set("Ml")}
+            id={show === "Others" ? "selected" : "NotSelected"}
+            onClick={() => set("Others")}
           >
             Others
           </div>
