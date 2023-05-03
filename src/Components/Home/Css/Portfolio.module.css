@@ -53,6 +53,8 @@
   width: 30%;
   min-width: 300px;
   border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .mapImgTag {
@@ -68,6 +70,13 @@
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+  transition: all 0.3s;
+}
+
+.mapmDivTag:hover > .mapImgTag {
+  /* object-fit: scale-down; */
+  transform: translateX(0%) translateY(0%) scale(0.9);
+  /* object-fit: contain; */
 }
 
 .GreyText {
