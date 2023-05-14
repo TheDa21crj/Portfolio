@@ -6,7 +6,7 @@ import PCSS from "./Css/Portfolio.module.css";
 
 // Data
 import Graphic from "./../../Data/Graphic.json";
-import Others from "./../../Data/Ml.json";
+import Others from "./../../Data/Others.json";
 import Web from "./../../Data/Web.json";
 
 export default function Portfolio() {
