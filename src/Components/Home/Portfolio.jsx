@@ -62,6 +62,9 @@ export default function Portfolio() {
                     alt=""
                     className={PCSS.mapImgTag}
                   />
+                  <div className={PCSS.hoverDataMDiv}>
+                    <button className={PCSS.ViewBtn}>View</button>
+                  </div>
                 </div>
               );
             })}
