@@ -64,7 +64,13 @@ export default function Portfolio() {
                     className={PCSS.mapImgTag}
                   />
                   <div className={PCSS.hoverDataMDiv}>
-                    <Link className={PCSS.ViewBtn}>View</Link>
+                    <a
+                      href={value.link}
+                      className={PCSS.ViewBtn}
+                      target="_blank"
+                    >
+                      View
+                    </a>
                   </div>
                 </div>
               );
