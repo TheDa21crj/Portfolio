@@ -1,7 +1,8 @@
 [
   {
     "id": "1",
-    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64562321cb110df808a92061_ecMain.png"
+    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64562321cb110df808a92061_ecMain.png",
+    "link": "https://github.com/TheDa21crj/E-Commerce"
   },
   {
     "id": "2",
@@ -9,11 +10,13 @@
   },
   {
     "id": "3",
-    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64561da2fc48951cfb5c22a7_krsmain.png"
+    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64561da2fc48951cfb5c22a7_krsmain.png",
+    "link": "https://krs.kiit.ac.in/"
   },
   {
     "id": "4",
-    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64561ca109c5e17ef00bade4_fedmain.png"
+    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64561ca109c5e17ef00bade4_fedmain.png",
+    "link": "https://fedkiit.com/"
   },
   {
     "id": "5",
@@ -21,6 +24,7 @@
   },
   {
     "id": "6",
-    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6460a320690df7d5dc2978ac_mg.png"
+    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6460a320690df7d5dc2978ac_mg.png",
+    "link": "https://memorygame-8av.pages.dev/"
   }
 ]
