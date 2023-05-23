@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import { motion } from "framer-motion";
 
 // Css
 import PCSS from "./Css/Portfolio.module.css";
