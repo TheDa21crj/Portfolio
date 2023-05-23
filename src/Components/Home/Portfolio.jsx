@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 // Css
 import PCSS from "./Css/Portfolio.module.css";
@@ -63,7 +64,7 @@ export default function Portfolio() {
                     className={PCSS.mapImgTag}
                   />
                   <div className={PCSS.hoverDataMDiv}>
-                    <button className={PCSS.ViewBtn}>View</button>
+                    <Link className={PCSS.ViewBtn}>View</Link>
                   </div>
                 </div>
               );
