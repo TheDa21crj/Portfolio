@@ -6,7 +6,8 @@
   },
   {
     "id": "2",
-    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64691e935443350ff569e1e4_Frame%207.png"
+    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64691e935443350ff569e1e4_Frame%207.png",
+    "link": "https://iitkgp-webathon.pages.dev/"
   },
   {
     "id": "3",
@@ -20,7 +21,8 @@
   },
   {
     "id": "5",
-    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64609b69ac4c2f8714c27a1d_Frame%204.png"
+    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64609b69ac4c2f8714c27a1d_Frame%204.png",
+    "link": "https://github.com/Aditya-ranjan-16/podflix-frontend"
   },
   {
     "id": "6",
