@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
-
 .mDiv {
   position: relative;
-  height: 650px;
+  height: 102vh;
+  max-height: 750px;
   background-color: #000000;
   color: #fff;
   padding: 70px 0px 0px 100px;
@@ -17,8 +15,8 @@
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 96px;
-  line-height: 116px;
+  font-size: clamp(3rem, 6vw + 1rem, 6rem);
+  line-height: clamp(3.5rem, 7.25vw + 1rem, 7.25rem);
 }
 
 .PTagHeader span {
@@ -30,14 +28,12 @@
   font-family: "Inter", sans-serif;
   font-style: italic;
   font-weight: 300;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: clamp(0.6rem, 2vw + 1rem, 2rem);
+  line-height: clamp(1rem, 2.438vw + 1rem, 2.438rem);
 }
 
 .ImgReact {
   width: 321px;
-  /* height: 693.46px; */
-  /* background-color: red; */
   position: absolute;
   bottom: -64px;
   right: 54.3px;
@@ -47,12 +43,37 @@
 .GreyText {
   position: absolute;
   left: -42px;
-  bottom: -80px;
+  bottom: -9.7%;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 180px;
-  line-height: 218px;
+  /* font-size: 180px; */
+  font-size: clamp(5rem, 12vw + 1rem, 12rem);
+  /* line-height: 218px; */
   color: #353535;
   z-index: 0;
+}
+
+@media only screen and (max-width: 850px) {
+  .mDiv {
+    padding: 50px 0px 0px 50px;
+  }
+  .ImgReact {
+    right: 0px;
+  }
+  .GreyText {
+    bottom: -5.7%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .mDiv {
+    padding: 30px 0px 0px 30px;
+  }
+  .ImgReact {
+    right: -54.4px;
+  }
+  .GreyText {
+    bottom: -3.7%;
+  }
 }
