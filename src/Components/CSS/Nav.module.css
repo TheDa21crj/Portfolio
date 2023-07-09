@@ -1,44 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
 
 .mDiv {
-    background-color: #0f0f0f;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 100px;
-    border-style: solid;
-    border-width: 0px 0px 1.5px 0px;
-    border-color: #fd2155;
-    box-shadow: 0px 4px 20px -6px rgba(255, 255, 255, 0.2);
+  background-color: #0f0f0f;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  border-style: solid;
+  border-width: 0px 0px 1.5px 0px;
+  border-color: #fd2155;
+  box-shadow: 0px 4px 20px -6px rgba(255, 255, 255, 0.2);
 }
 
 .pTagHead {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 39px;
-    color: #fd2155;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #fd2155;
 }
 
 .hamburger {
-    cursor: pointer;
-    background-color: transparent;
-    transition: all 0.3s;
-    height: 28px;
-    /* background-color: #fff; */
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.3s;
+  height: 28px;
+  /* background-color: #fff; */
 }
 
 .bur1,
 .bur2,
 .bur3 {
-    width: 50px;
-    height: 2px;
-    background-color: #fd2155;
+  width: 50px;
+  height: 2px;
+  background-color: #fd2155;
 }
 
 .bur1,
 .bur2 {
-    margin-bottom: 22%;
+  margin-bottom: 22%;
 }
