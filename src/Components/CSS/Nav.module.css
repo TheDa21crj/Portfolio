@@ -16,6 +16,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
+  font-size: clamp(1rem, 2vw + 1rem, 2rem);
   line-height: 39px;
   color: #fd2155;
 }
@@ -29,24 +30,30 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  overflow: hidden;
+  position: relative;
 }
 
 .bur1,
 .bur2,
 .bur3 {
-  height: 2px;
   background-color: #fd2155;
+  transition: all 0.3s;
 }
 
 .bur1 {
+  margin-top: 1px;
+  height: 2px;
   width: 100%;
 }
 
 .bur2 {
+  height: 2px;
   width: 75%;
 }
 
 .bur3 {
+  height: 2px;
   width: 25%;
 }
 
@@ -58,5 +65,19 @@
 @media only screen and (max-width: 850px) {
   .mDiv {
     padding: 20px 50px;
+  }
+  .bur1,
+  .bur2 {
+    margin-bottom: 18%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .mDiv {
+    padding: 15px 30px;
+  }
+  .bur1,
+  .bur2 {
+    margin-bottom: 15%;
   }
 }
