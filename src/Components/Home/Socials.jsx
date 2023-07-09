@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 // css
 import SoCss from "./Css/Socials.module.css";
 
