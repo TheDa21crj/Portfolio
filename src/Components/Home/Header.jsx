@@ -1,5 +1,9 @@
 import React from "react";
+
+// css
 import HCss from "./Css/Header.module.css";
+
+// img
 import ImgReact from "./../../assets/7.png";
 import ImgReact2 from "./../../assets/img.jpg";
 
