@@ -13,8 +13,10 @@
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 80px;
-  line-height: 97px;
+  /* font-size: 80px; */
+  /* line-height: 97px; */
+  font-size: clamp(2.6rem, 6.063vw + 1rem, 6.063rem);
+  line-height: clamp(3.2rem, 7.125vw + 1rem, 7.125rem);
   color: #fd2155;
   margin-bottom: 24px;
 }
@@ -23,9 +25,11 @@
   font-family: "Inter", sans-serif;
   font-style: italic;
   font-weight: 300;
-  font-size: 28px;
+  /* font-size: 28px; */
+  font-size: clamp(1rem, 2vw + 1rem, 2.125rem);
   line-height: 34px;
   width: 90%;
+  text-align: justify;
   margin-bottom: 30px;
 }
 
@@ -35,43 +39,43 @@
   margin-bottom: 48px;
 }
 
+.downloadtext,
 .ReadMore {
-  text-align: center;
-  width: 193px;
-  height: 47px;
-  border: 1px solid #08fdd8;
-  border-radius: 4px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  background-color: transparent;
-  color: #08fdd8;
-  transition: all 0.7s;
-}
-
-.downloadtext {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
   text-align: center;
+  background-color: transparent;
   width: 193px;
   height: 47px;
   border: 1px solid #08fdd8;
   border-radius: 4px;
   font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  background-color: transparent;
   color: #08fdd8;
   transition: all 0.7s;
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(1rem, 1.5vw + 1rem, 1.5rem);
+  line-height: clamp(1.2rem, 1.813vw + 1rem, 1.813rem);
 }
+
+/* .downloadtext {
+  margin-left: 30px;
+} */
 
 .downloadtext:hover,
 .ReadMore:hover {
   box-shadow: inset -10.5em 0 0 0 #012b24, inset 10.5em 0 0 0 #012b24;
+}
+
+@media only screen and (max-width: 850px) {
+  .mDiv {
+    padding: 68px 50px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .mDiv {
+    padding: 68px 30px;
+  }
 }
