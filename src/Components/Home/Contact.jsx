@@ -1,7 +1,13 @@
 import React from "react";
+
+// css
 import CCss from "./Css/Contact.module.css";
-import ContactData from "./../../Data/Contact.json";
+
+// Components
 import Socials from "./Socials";
+
+// Data
+import ContactData from "./../../Data/Contact.json";
 
 // icons
 import Map from "./../../assets/Mapsicle Map.png";
@@ -50,15 +56,6 @@ export default function Contact() {
           ) : (
             ""
           )}
-          <textarea
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-            className={CCss.TeaxtareaTag}
-            placeholder="Type your message...."
-          ></textarea>
-          <button className={CCss.Send}>Send</button>
         </div>
         <img src={Map} alt="" className={CCss.MapImg} />
       </div>
