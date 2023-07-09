@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
 * {
   margin: 0px;
@@ -62,4 +65,29 @@ input[type="number"] {
 
 #NotSelected {
   background-color: transparent;
+}
+
+#toogleTrueBur2 {
+  transform: translateX(0%);
+}
+
+#toogleFalseBur2 {
+  transform: translateX(150%);
+}
+
+#toogleTrueBur3,
+#toogleTrueBur1 {
+  transform: rotate(0deg);
+  transform-origin: left;
+}
+
+#toogleFalseBur1 {
+  transform: rotate(30deg);
+  transform-origin: left;
+}
+
+#toogleFalseBur3 {
+  width: 100%;
+  transform: rotate(-30deg);
+  transform-origin: left;
 }
