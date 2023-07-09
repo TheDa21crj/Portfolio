@@ -25,7 +25,6 @@
   background-color: transparent;
   transition: all 0.3s;
   height: 28px;
-  /* background-color: #fff; */
 }
 
 .bur1,
@@ -42,4 +41,7 @@
 }
 
 @media only screen and (max-width: 850px) {
+  .mDiv {
+    padding: 20px 50px;
+  }
 }
