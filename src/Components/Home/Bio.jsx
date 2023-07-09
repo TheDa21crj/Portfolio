@@ -16,7 +16,9 @@ export default function Bio() {
         <button className={BCss.ReadMore}>
           <p>Read More</p>
         </button>
-        <div className={BCss.downloadtext}>Download CV</div>
+        {/* <div className={BCss.downloadtext}>
+          <p>Download CV</p>
+        </div> */}
       </div>
     </div>
   );
