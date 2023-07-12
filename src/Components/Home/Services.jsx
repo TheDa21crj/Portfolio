@@ -8,7 +8,7 @@ import img from "./../../assets/services.png";
 
 export default function Services() {
   return (
-    <div className={SCss.mDiv}>
+    <div className={SCss.mDiv} id="Services">
       <p className={SCss.GreyText}>VARSITY</p>
       <div className={SCss.mCont}>
         <div className={SCss.Box}>
