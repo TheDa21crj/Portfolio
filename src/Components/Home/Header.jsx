@@ -9,7 +9,11 @@ import ImgReact2 from "./../../assets/img.jpg";
 
 export default function Header() {
   return (
-    <div className={HCss.mDiv} style={{ backgroundImage: `url(${ImgReact2})` }}>
+    <div
+      className={HCss.mDiv}
+      style={{ backgroundImage: `url(${ImgReact2})` }}
+      id="Header"
+    >
       <p className={HCss.PTagHeader}>
         Hi,
         <br />
