@@ -33,14 +33,14 @@ export default function Portfolio() {
             id={show === "Graphic" ? "selected" : "NotSelected"}
             onClick={() => set("Graphic")}
           >
-            GRAPHIC
+            Graphic
           </div>
           <div
             className={PCSS.WEB}
             id={show === "Web" ? "selected" : "NotSelected"}
             onClick={() => set("Web")}
           >
-            WEB
+            Web
           </div>
           <div
             className={PCSS.APP}
