@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .LinkStyle {
   text-decoration: none;
   color: inherit;
@@ -67,27 +71,10 @@ input[type="number"] {
   background-color: transparent;
 }
 
-#toogleTrueBur2 {
+#HideNav {
+  transform: translateX(-100%);
+}
+
+#showNav {
   transform: translateX(0%);
-}
-
-#toogleFalseBur2 {
-  transform: translateX(150%);
-}
-
-#toogleTrueBur3,
-#toogleTrueBur1 {
-  transform: rotate(0deg);
-  transform-origin: left;
-}
-
-#toogleFalseBur1 {
-  transform: rotate(30deg);
-  transform-origin: left;
-}
-
-#toogleFalseBur3 {
-  width: 100%;
-  transform: rotate(-30deg);
-  transform-origin: left;
 }
