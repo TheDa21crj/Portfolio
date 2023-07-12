@@ -57,7 +57,18 @@ export default function Contact() {
             ""
           )}
         </div>
-        <img src={Map} alt="" className={CCss.MapImg} />
+        {/* <img src={Map} alt="" className={CCss.MapImg} /> */}
+        <iframe
+          width="520"
+          height="400"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          id="gmap_canvas"
+          className={CCss.MapImg}
+          src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=St.%20No.%20-%2070,%20Qt.%20No.%20-%202A%20Mihijam+(Rishav)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        ></iframe>
       </div>
       <Socials />
       <div className={CCss.mDivBottom}>
