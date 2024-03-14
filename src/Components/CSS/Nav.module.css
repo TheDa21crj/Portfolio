@@ -1,0 +1,115 @@
+.mDiv {
+  background-color: #0f0f0f;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  border-style: solid;
+  border-width: 0px 0px 1.5px 0px;
+  border-color: #fd2155;
+  box-shadow: 0px 4px 20px -6px rgba(255, 255, 255, 0.2);
+}
+
+.pTagHead {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  font-size: clamp(1rem, 2vw + 1rem, 2rem);
+  line-height: 39px;
+  color: #fd2155;
+}
+
+.hamburger,
+.moboNav {
+  display: none;
+}
+
+@media only screen and (max-width: 850px) {
+  .mDiv {
+    padding: 20px 50px;
+  }
+  .bur1,
+  .bur2 {
+    margin-bottom: 18%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .hamburger {
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.3s;
+    height: 28px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .bur1,
+  .bur2,
+  .bur3 {
+    background-color: #fd2155;
+    transition: all 0.3s;
+  }
+
+  .bur1 {
+    margin-top: 1px;
+    height: 2px;
+    width: 100%;
+  }
+
+  .bur2 {
+    height: 2px;
+    width: 75%;
+  }
+
+  .bur3 {
+    height: 2px;
+    width: 25%;
+  }
+
+  .bur1,
+  .bur2 {
+    margin-bottom: 22%;
+  }
+
+  .moboNav {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    gap: 20px 0px;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    max-width: 1750px;
+    transition: all 0.3s;
+  }
+
+  .mobComponent {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .mDiv {
+    padding: 15px 30px;
+  }
+  .bur1,
+  .bur2 {
+    margin-bottom: 15%;
+  }
+  .moboNav {
+    top: 70px;
+  }
+}
