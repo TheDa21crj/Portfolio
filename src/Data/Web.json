@@ -13,26 +13,26 @@
   },
   {
     "id": "3",
+    "name": "Solutions Depot",
+    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/65f2840aa2f5da73ed424cd7_Frame%2022.png",
+    "link": "https://www.solutionsdepot.in/"
+  },
+  {
+    "id": "4",
     "name": "E-Commerce",
     "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64562321cb110df808a92061_ecMain.png",
     "link": "https://github.com/TheDa21crj/E-Commerce"
   },
   {
-    "id": "4",
+    "id": "5",
     "name": "Squad",
     "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64691e935443350ff569e1e4_Frame%207.png",
     "link": "https://iitkgp-webathon.pages.dev/"
   },
   {
-    "id": "5",
+    "id": "6",
     "name": "Podflix",
     "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64609b69ac4c2f8714c27a1d_Frame%204.png",
     "link": "https://github.com/Aditya-ranjan-16/podflix-frontend"
-  },
-  {
-    "id": "6",
-    "name": "Memory Game",
-    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/6460a320690df7d5dc2978ac_mg.png",
-    "link": "https://memorygame-8av.pages.dev/"
   }
 ]
