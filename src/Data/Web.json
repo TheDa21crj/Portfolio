@@ -13,9 +13,9 @@
   },
   {
     "id": "3",
-    "name": "Solutions Depot",
-    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/65f2840aa2f5da73ed424cd7_Frame%2022.png",
-    "link": "https://www.solutionsdepot.in/"
+    "name": "Hexbit",
+    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/66ae0c772cd2cadfb945fb37_Frame%2024.png",
+    "link": "https://www.hexbit.io/"
   },
   {
     "id": "4",
@@ -34,5 +34,11 @@
     "name": "Podflix",
     "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/64609b69ac4c2f8714c27a1d_Frame%204.png",
     "link": "https://github.com/Aditya-ranjan-16/podflix-frontend"
+  },
+  {
+    "id": "7",
+    "name": "Solutions Depot",
+    "img": "https://uploads-ssl.webflow.com/61dd733efbe56d4e2f5f701f/65f2840aa2f5da73ed424cd7_Frame%2022.png",
+    "link": "https://www.solutionsdepot.in/"
   }
 ]
