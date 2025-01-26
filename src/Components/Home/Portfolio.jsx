@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 import PCSS from "./Css/Portfolio.module.css";
 
 // Data
-import Graphic from "./../../Data/Graphic.json";
-import Others from "./../../Data/Others.json";
 import Web from "./../../Data/Web.json";
+import Others from "./../../Data/Others.json";
+import Graphic from "./../../Data/Graphic.json";
 
 export default function Portfolio() {
   const [show, set] = useState("Web");
