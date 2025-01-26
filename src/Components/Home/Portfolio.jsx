@@ -16,8 +16,8 @@ export default function Portfolio() {
   useEffect(() => {
     if (show === "Graphic") {
       setMap(Graphic);
-    } else if (show === "Others") {
-      setMap(Others);
+      // } else if (show === "Others") {
+      //   setMap(Others);
     } else if (show === "Web") {
       setMap(Web);
     }
@@ -42,13 +42,13 @@ export default function Portfolio() {
           >
             Web
           </div>
-          <div
+          {/* <div
             className={PCSS.APP}
             id={show === "Others" ? "selected" : "NotSelected"}
             onClick={() => set("Others")}
           >
             Others
-          </div>
+          </div> */}
         </div>
       </div>
       <>
