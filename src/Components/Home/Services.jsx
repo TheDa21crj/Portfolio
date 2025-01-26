@@ -15,7 +15,7 @@ export default function Services() {
           <p className={SCss.titleService}>My Services</p>
           <img src={img} alt="" className={SCss.imgSrc} />
           <p className={SCss.serviceName}>
-            Full Stack Developer | Software Developer
+            Full Stack Developer | Software Developer | Consultant
           </p>
         </div>
       </div>
