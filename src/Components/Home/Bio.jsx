@@ -13,9 +13,9 @@ export default function Bio() {
         a drop in the ocean compared to the entire list.
       </p>
       <div className={BCss.BtnPDiv}>
-        <button className={BCss.ReadMore}>
+        {/* <button className={BCss.ReadMore}>
           <p>Read More</p>
-        </button>
+        </button> */}
         {/* <div className={BCss.downloadtext}>
           <p>Download CV</p>
         </div> */}
