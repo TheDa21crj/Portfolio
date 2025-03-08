@@ -6,7 +6,6 @@
   position: absolute;
   top: -86px;
   left: -25px;
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 800;
   /* font-size: 180px; */
@@ -21,12 +20,9 @@
   position: absolute;
   bottom: -10%;
   right: -14%;
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 800;
-  /* font-size: 180px; */
   font-size: clamp(5rem, 12vw + 1rem, 12rem);
-  /* line-height: 218px; */
   color: #353535;
   z-index: 0;
 }
@@ -53,16 +49,11 @@
 }
 
 .titleService {
-  font-family: "Inter", sans-serif;
   text-align: center;
   font-style: normal;
   font-weight: 600;
-  /* font-size: 44px; */
-  /* font-size: 40px; */
   font-size: clamp(1.4rem, 2.75vw + 1rem, 2.75rem);
-  /* line-height: 48px; */
   line-height: clamp(1.8rem, 3.313vw + 1rem, 3.313rem);
-  /* line-height: 53px; */
   color: #08fdd8;
 }
 
@@ -73,12 +64,9 @@
 
 .serviceName {
   margin: 30px 10px 0px 10px;
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  /* font-size: 40px; */
   font-size: clamp(1.2rem, 2.5vw + 1rem, 2.5rem);
-  /* line-height: 48px; */
   line-height: clamp(1.4rem, 3vw + 1rem, 3rem);
   text-align: center;
 }
