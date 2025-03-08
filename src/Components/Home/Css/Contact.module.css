@@ -18,9 +18,7 @@
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 800;
-  /* font-size: 53px; */
   font-size: clamp(1.4rem, 3vw + 1rem, 3.313rem);
-  /* line-height: 64px; */
   line-height: clamp(1.6rem, 3vw + 1rem, 3.6rem);
   color: #fd2155;
   margin-bottom: 50px;
@@ -31,7 +29,6 @@
 }
 
 .MapImg {
-  /* width: 547px; */
   width: 45%;
   height: 547px;
   object-fit: cover;
