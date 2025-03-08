@@ -15,7 +15,6 @@
 }
 
 .ContactMe {
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: clamp(1.4rem, 3vw + 1rem, 3.313rem);
@@ -45,7 +44,6 @@
   display: flex;
   color: inherit;
   align-items: center;
-  font-family: "Inter", sans-serif;
   text-decoration: none;
   /* font-size: 36px; */
   font-size: clamp(1rem, 1vw + 1rem, 2.25rem);
@@ -74,7 +72,6 @@
 }
 
 .lastLine {
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   /* font-size: 22px; */
