@@ -12,7 +12,6 @@
 }
 
 .pTagHead {
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -95,7 +94,6 @@
   }
 
   .mobComponent {
-    font-family: "Inter", sans-serif;
     font-size: 24px;
     width: 100%;
   }
