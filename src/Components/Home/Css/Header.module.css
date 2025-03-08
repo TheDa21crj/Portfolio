@@ -12,7 +12,6 @@
 }
 
 .PTagHeader {
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: clamp(3rem, 6vw + 1rem, 6rem);
@@ -25,7 +24,6 @@
 
 .skiilsPTag {
   margin-top: 21px;
-  font-family: "Inter", sans-serif;
   font-style: italic;
   font-weight: 300;
   font-size: clamp(0.6rem, 2vw + 1rem, 2rem);
@@ -44,12 +42,9 @@
   position: absolute;
   left: -42px;
   bottom: -9.7%;
-  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 800;
-  /* font-size: 180px; */
   font-size: clamp(5rem, 12vw + 1rem, 12rem);
-  /* line-height: 218px; */
   color: #353535;
   z-index: 0;
 }
